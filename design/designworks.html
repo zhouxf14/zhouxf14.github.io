@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>designworks</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+  <header>
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="../research/research.html"><h6>Research</h6></a></li>
+      <li class="divider"></li>
+      <li><a href="../photography/photography.html"><h6>Photography</h6></a></li>
+      <li class="divider"></li>
+      <li><a href="../comics/comics.html"><h6>Comics</h6></li>
+    </ul>
+    <nav>
+      <div class="nav-wrapper teal">
+        <a href="#!" class="brand-logo white-text">&nbsp&nbsp&nbspXiaofei Zhou</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="design.html"><i class="material-icons">arrow_back</i></a></li>
+          <li><a href="../index.html"><i class="material-icons">home</i></a></li>
+          <!-- Dropdown Trigger -->
+          <li><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="large material-icons">menu</i></a></li>
+          <li><h4>&nbsp&nbsp&nbsp</h4></li>
+          <li><img class="circle" src="../media/images/profile_v4.jpg"></li>
+          <li><h4>&nbsp&nbsp&nbsp</h4></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div>
+      <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+          <br><br>
+          <h1 class="header center grey-text text-darken-3">Schedule Box</h1>
+          <div class="row">
+            <p>This is a useful schedule helper. Let you schedule your day more efficiently according to the difficulty degree of things on your to-do-list. And also provide multiple ways to present the schedule.</p>
+          </div>
+          <br><br>
+        </div>
+      </div>
+
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal3" style="position: fixed;bottom: 7;right: 0;">App/Web/UI<i class="material-icons left">collections</i></a>
+      <div id="modal3" class="modal bottom-sheet" style="z-index: 1007; display: none; opacity: 0; bottom: -100%;">
+            <div class="modal-content">
+              <h5>App/Web/UI</h5>
+              <ul class="collection">
+                <li class="collection-item avatar">
+                  <img src="images/yuna.jpg" alt="" class="circle">
+                  <span class="title">Title</span>
+                  <p>First Line <br> Second Line </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">open_in_new</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle">folder</i>
+                  <span class="title">Title</span>
+                  <p>First Line <br> Second Line </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">open_in_new</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle green">assessment</i>
+                  <span class="title">Title</span>
+                  <p>First Line <br> Second Line </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">open_in_new</i></a>
+                </li>
+                <li class="collection-item avatar">
+                  <i class="material-icons circle red">play_arrow</i>
+                  <span class="title">Title</span>
+                  <p>First Line <br> Second Line </p>
+                  <a href="#!" class="secondary-content"><i class="material-icons">open_in_new</i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+    </div>
+  </main>  
+
+  <!-- <div class="section">
+    <a href="#modal1" class="btn waves-effect waves-light teal modal-trigger" style="position: fixed;bottom:5; right: 0">APP/Web/UI<i class="material-icons left">collections</i></a>
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal bottom-sheet" style="z-index: 1007; display: none; opacity: 0; bottom: -100%;">
+          <div class="modal-content">
+            <h4>Modal Header</h4>
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <img src="images/yuna.jpg" alt="" class="circle">
+                <span class="title">Title</span>
+                <p>First Line <br> Second Line </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle">folder</i>
+                <span class="title">Title</span>
+                <p>First Line <br> Second Line </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle green">assessment</i>
+                <span class="title">Title</span>
+                <p>First Line <br> Second Line </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle red">play_arrow</i>
+                <span class="title">Title</span>
+                <p>First Line <br> Second Line </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="footer-copyright">&nbsp&nbsp&nbsp©&nbsp&nbsp<a class="white-text" href="../index.html">Xiaofei Zhou 2017</a>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="../js/materialize.js"></script>
+  <script src="../js/init_02.js"></script>
+
+  </body>
+</html>
