@@ -11,6 +11,11 @@
   font-weight: normal;
 }
 
+.tip {
+  font-weight: normal;
+  color: #1a237e;
+}
+
 .dropdown-text {
   font-size: 14px;
   font-weight: bold;
