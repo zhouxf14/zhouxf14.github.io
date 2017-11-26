@@ -22,7 +22,7 @@
     </ul>
     <nav>
       <div class="nav-wrapper deep-purple darken-4">
-        <a href="#!" class="brand-logo white-text">&nbsp&nbsp&nbspXiaofei Zhou</a>
+        <a href="../index.html" class="brand-logo white-text">&nbsp&nbsp&nbspXiaofei Zhou</a>
         <ul class="right hide-on-med-and-down">
           <li><a href="design.html"><i class="material-icons white-text">arrow_back</i></a></li>
           <li><a href="../index.html"><i class="material-icons white-text">home</i></a></li>
@@ -44,7 +44,8 @@
         <div><span class="work-title">Safe-Sharing</span><span class="work-subtitle2">&nbsp;&nbsp;- A personal safe with 3 user scenarios</span></div>
         <div class="work-subhead2">What is it?</div>
         <div class="text1">
-          <p>This is a safe which can be <span class="highlight">shared with guests</span>. Facial recognition and speech recognition are used as its <span class="highlight">doublet code</span>. Once discovering unidentified users, a spare <span class="highlight">empty space</span> will be activated and the user can only open that empty space, which will protect valuable items in the safe.</p>
+          <p>This is a safe which can be <span class="highlight">shared with guests</span>. <span class="highlight">Different spaces</span> with different locks make the sharing possible. Facial recognition and speech recognition are used as its <span class="highlight">doublet code</span>. Once discovering <span class="highlight">unidentified users</span>, a spare empty space will be activated and the current user can only open that empty space, which is actually <span class="highlight">a fake space</span> and will protect valuable items in the safe.</p>
+          <p>The idea of that "fake space" used to protect owner's possession when the safe is broken into came from <span class="highlight">a tiny magic box</span> I played in my childhood.</p>
           <div class="img center">
             <img src="../media/images/design_works/safe2.jpg" width="60%">
           </div>
@@ -52,15 +53,22 @@
             <img src="../media/images/design_works/safe1.jpg" width="60%">
           </div>
           <div class="img center">
-            <img src="../media/images/design_works/safe1.jpg" width="60%">
+            <img src="../media/images/design_works/safe5.jpg" width="60%">
           </div>
           <p style="padding-top: 10px;">I am the <span class="highlight">independent designer and developer</span> for this project. I designed the spatial model for product construction with SketchUp. The safe was developed with Python and Arduino programming on Galileo Board and ZOC Terminal.</p>
         </div>
         <div class="work-subhead2">What problems does it solve?</div>
-        <div class="text1"><p>Safe is always very secret and personal space for people. But <span class="highlight">differentiate the space</span> for it will provide opportunity for sharing the safe between the owner and guests, even "sharing" with those with bad intentions.</p></div>
+        <div class="text1">
+          <p>Safe is always a very secret and personal space for people. But <span class="highlight">differentiate the space</span> for it will provide opportunity to share such safe between the owner and guests when it is necessary, even can be "shared" safely with people who have <span class="highlight">bad intentions</span>.</p> 
+        </div>
         <div class="work-subhead2">How does it work?</div>
         <div class="text1">
+          <p>First, it will use <span class="highlight">face recognition</span> to decide whether the user is its owner or not. If the face and speech password are all verified, the <span class="highlight">owner’s space</span> will be open.</p>
+          <p>But if the face is recognized as a guest(a stranger), the user will be asked about the <span class="highlight">speech password prepared for the guest</span>, which can prove that the user has been given the right of use by the owner.</p>
+          <p>If unfortunately the user isn’t the owner, but also not an authorized guest, then the safe will indeed be open but only <span class="highlight">a reserved empty space</span> can be open. So nothing in the safe will be threatened by the unidentified user, who probably is a thief.</p>
+          </div>
           <ul>
+            <li class="work-subsubhead">Video Demo</li>
             <li>
               <div class="video-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/U7yLvRJsEw8" frameborder="0" gesture="media" allowfullscreen></iframe>
@@ -68,7 +76,6 @@
             </li>
           </ul>
         <br><br><br><br><br><br>
-      </div>
     </div>
      <div>
         <a class="waves-effect waves-light btn modal-trigger deep-purple darken-4" href="#modal" style="position: fixed;bottom: 200px; right: 0px;">Other Works<i class="material-icons left">collections</i></a>
