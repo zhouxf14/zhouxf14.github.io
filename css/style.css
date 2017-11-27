@@ -6,6 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+.start {
+  font-size: 18px;
+  text-align: justify;
+  font-weight: normal;
+}
+
+.topic {
+  font-size: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .description {
   font-size: 20px;
   text-align: justify;
