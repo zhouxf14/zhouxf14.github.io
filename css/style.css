@@ -1,4 +1,75 @@
+body {
+    /*font-family: 'lgmv';*/
+}
+
 .title {
 	margin: auto;
 	text-align: center;
+}
+
+#slide-out {
+	width: 150px;
+	margin: 0px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	height: calc(100% + 60px);
+	position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: calc(100% + 60px);
+    padding-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    backface-visibility: hidden;
+}
+
+#slide-out a {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    /*height: 48px;*/
+    /*line-height: 48px;*/
+    padding: 20px 32px 20px 32px;
+    color: #757575;
+}
+
+.aboutme p {
+    font-family: lgmv;
+    font-size: 18px;
+}
+
+.aboutme img {
+    width: 70%;
+}
+
+#about {
+    height: 900px;
+    width: 100%;
+    background-color: #000;
+}
+
+#project {
+    height: 900px;
+    width: 100%;
+    background-color: #4a148c;
+}
+
+#cv {
+    height: 900px;
+    width: 100%;
+    background-color: #ff80ab;
+}
+
+#contact {
+    height: 900px;
+    width: 100%;
+    background-color: #e0f2f1;
+}
+
+#more {
+    height: 900px;
+    width: 100%;
+    background-color: #40c4ff;
 }
