@@ -60,11 +60,13 @@ body {
 }
 
 .cv-btn {
-    color: rgb(140, 140, 140);
+    /*color: rgb(140, 140, 140);*/
+    color: #3c8d28;
     font-size: 12px;
-    border: 1px solid rgb(140, 140, 140);
+    /*border: 1px solid rgb(140, 140, 140);*/
+    border: 1px solid #3c8d28;
     border-radius: 35px;
-    margin: 20px 22px 10px 22px;
+    margin: 20px 27px 10px 27px;
     padding: 5px 10px;
     cursor: pointer;
     text-align: center;
@@ -73,8 +75,12 @@ body {
 }
 
 .cv-btn:hover {
-    background-color: rgb(140, 140, 140);
-    color: #fff;
+    /*background-color: rgb(140, 140, 140);*/
+    background-color: #e8f5e9;
+    border-color: #e8f5e9;
+    /*color: #fff;*/
+    /*color: rgb(140,140,140);*/
+    color: #3c8d28;
 }
 
 .aboutme p {
@@ -86,9 +92,18 @@ body {
     width: 70%;
 }
 
-.parallax-container {
+/*.parallax-container {*/
+#about {
     /*height: 420px !important;*/
     height: 390px !important;
+}
+
+#contact {
+    height: 390px !important;
+}
+
+#more {
+    height: 600px !important;
 }
 
 .introduction {
@@ -113,9 +128,6 @@ body {
     color: #757575;
 }
 
-#project {
-    padding-top: 35px;
-}
 
 .tags {
     /*vertical-align: middle;*/
@@ -135,12 +147,15 @@ body {
     /*border:1px solid;*/
     /*border-color: rgba(117,117,117,0.6);*/
     cursor: pointer;
-    border-bottom: 3px solid rgb(220,220,220);
+    border-left: 5px solid rgb(220,220,220);
+    border-right: 5px solid #fff;
+    border-radius: 35px;
 }
 
 .tags .active {
     background-color: rgb(140,140,140);
-    border-bottom: 3px solid rgb(140,140,140);
+    border-left: 5px solid rgb(140,140,140);
+    border-right: 5px solid rgb(140,140,140);
     color: #fff;
     border-radius: 35px;
     -moz-border-radius: 35px; /* Old Firefox */
@@ -150,13 +165,9 @@ body {
     border-radius: 35px;
     -moz-border-radius: 35px; /* Old Firefox */
     background-color: rgb(220,220,220);
-    border-bottom: 3px solid rgb(220,220,220);
+    border-left: 5px solid rgb(220,220,220);
+    border-right:5px solid rgb(220,220,220);
     color: #fff;
-}
-
-.projects {
-    padding-top: 20px;
-    /*padding-left: 130px;*/
 }
 
 .projects .row {
@@ -187,16 +198,28 @@ body {
     box-shadow: none !important;
 }
 
-.contact {
-    padding-top: 35px;
-}
-
-.contacts {
+.contents {
     padding-top: 20px;
     color: #757575;
     margin-left: 35px;
 }
 
-.contacts img {
-    height: 20px;
+.contents a {
+    color: #757575 !important;
+}
+
+.upper-padding {
+    padding-top: 45px;
+}
+
+.more-link {
+    /*border-bottom: 3px solid rgb(220,220,220);*/
+    background-color: #e8f5e9;
+    border-radius: 35px;
+    padding: 7px 10px;
+}
+
+.more-link:hover {
+    background-color: #3c8d28;
+    color: #fff !important;
 }

@@ -7528,7 +7528,7 @@ input[type=range]::-ms-thumb {
 }*/
 
 .table-of-contents a:hover {
-  color: #a8a8a8;
+  /*color: #a8a8a8;*/
   /*padding-left: 15px;*/
   /*border-left: 1px solid #ee6e73;*/
   /*border-left: 3px solid #81c784;*/
