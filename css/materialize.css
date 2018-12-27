@@ -3436,13 +3436,15 @@ table span.badge {
 
 @media only screen and (min-width: 601px) {
   .container {
-    width: 85%;
+    /*width: 85%;*/
+    width: 95%;
   }
 }
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    /*width: 70%;*/
+    width: 85%;
   }
 }
 
@@ -3484,7 +3486,7 @@ table span.badge {
   float: left;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 0 0.75rem;
+  /*padding: 0 0.75rem;*/
   min-height: 1px;
 }
 
@@ -4754,8 +4756,10 @@ small {
 }
 
 .card .card-title {
-  font-size: 24px;
-  font-weight: 300;
+  /*font-size: 24px;*/
+  /*font-weight: 300;*/
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 .card .card-title.activator {
@@ -5283,7 +5287,9 @@ small {
 }
 
 .btn-floating:hover {
-  background-color: #26a69a;
+  /*background-color: #26a69a;*/
+  background-color: #e8f5e9;
+  /*color: #3c8d28;*/
 }
 
 .btn-floating:before {
@@ -5335,6 +5341,10 @@ small {
   color: #fff;
   font-size: 1.6rem;
   line-height: 40px;
+}
+
+.btn-floating i:hover {
+  color: #3c8d28;
 }
 
 button.btn-floating {
@@ -7521,7 +7531,8 @@ input[type=range]::-ms-thumb {
   color: #a8a8a8;
   /*padding-left: 15px;*/
   /*border-left: 1px solid #ee6e73;*/
-  border-left: 3px solid #81c784;
+  /*border-left: 3px solid #81c784;*/
+  border-left: 3px solid #3c8d28;
 }
 
 .table-of-contents a.active {

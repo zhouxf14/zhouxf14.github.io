@@ -2,13 +2,36 @@ body {
     /*font-family: 'lgmv';*/
 }
 
+.text-right {
+    text-align: right;
+}
+
 .title {
-	margin: auto;
-	text-align: center;
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    font-size: 18px;
+    /*color: #626262;*/
+    color: #3c8d28;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.left-dec {
+    border-left: 3px solid #3c8d28;
+    padding-left: 10px;
+}
+
+.right-dec {
+    border-right: 3px solid #3c8d28;
+    padding-right: 10px;
+}
+
+.main-page {
+    padding-left: 130px;
 }
 
 #slide-out {
-	width: 150px;
+	width: 130px;
 	margin: 0px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	height: calc(100% + 60px);
@@ -33,6 +56,25 @@ body {
     /*line-height: 48px;*/
     padding: 20px 32px 20px 32px;
     color: #757575;
+    /*font-weight: lighter;*/
+}
+
+.cv-btn {
+    color: rgb(140, 140, 140);
+    font-size: 12px;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 35px;
+    margin: 20px 22px 10px 22px;
+    padding: 5px 10px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 500;
+    font-family: lgvc;
+}
+
+.cv-btn:hover {
+    background-color: rgb(140, 140, 140);
+    color: #fff;
 }
 
 .aboutme p {
@@ -44,32 +86,117 @@ body {
     width: 70%;
 }
 
-#about {
-    height: 900px;
-    width: 100%;
-    background-color: #000;
+.parallax-container {
+    /*height: 420px !important;*/
+    height: 390px !important;
+}
+
+.introduction {
+    width: 56%;
+    /*color: #000;*/
+    /*color: #3c8d28;*/
+    background-color: rgba(255,255,255,0.6);
+    padding: 30px 70px 40px 70px;
+    margin-left: 10px;
+    margin-top: 20px;
+    /*border:2px solid;*/
+    border-radius: 35px;
+    -moz-border-radius: 35px; /* Old Firefox */
+}
+
+#about p {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+    background-color: transparent;
+    text-align: justify;
+    color: #757575;
 }
 
 #project {
-    height: 900px;
-    width: 100%;
-    background-color: #4a148c;
+    padding-top: 35px;
 }
 
-#cv {
-    height: 900px;
-    width: 100%;
-    background-color: #ff80ab;
+.tags {
+    /*vertical-align: middle;*/
+    display: inline;
+    margin-left: 49px;
+    overflow: visible;
 }
 
-#contact {
-    height: 900px;
-    width: 100%;
-    background-color: #e0f2f1;
+.tag {
+    color: #757575;
+    display: inline-block;
+    font-weight: lighter;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    /*border:1px solid;*/
+    /*border-color: rgba(117,117,117,0.6);*/
+    cursor: pointer;
+    border-bottom: 3px solid rgb(220,220,220);
 }
 
-#more {
-    height: 900px;
-    width: 100%;
-    background-color: #40c4ff;
+.tags .active {
+    background-color: rgb(140,140,140);
+    border-bottom: 3px solid rgb(140,140,140);
+    color: #fff;
+    border-radius: 35px;
+    -moz-border-radius: 35px; /* Old Firefox */
+}
+
+.tag:hover {
+    border-radius: 35px;
+    -moz-border-radius: 35px; /* Old Firefox */
+    background-color: rgb(220,220,220);
+    border-bottom: 3px solid rgb(220,220,220);
+    color: #fff;
+}
+
+.projects {
+    padding-top: 20px;
+    /*padding-left: 130px;*/
+}
+
+.projects .row {
+    /*padding-right: -50px;*/
+/*    padding-left: 75px;
+    width: 80%;*/
+}
+
+.projects .col {
+    padding-left: 35px;
+}
+
+.card-content {
+    /*border-top: 1px solid rgb(98,98,98);*/
+    border-bottom: 1px solid rgb(98,98,98);
+}
+
+.card-content p {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.projects .btn-floating {
+    background-color: #3c8d28;
+}
+
+.card {
+    box-shadow: none !important;
+}
+
+.contact {
+    padding-top: 35px;
+}
+
+.contacts {
+    padding-top: 20px;
+    color: #757575;
+    margin-left: 35px;
+}
+
+.contacts img {
+    height: 20px;
 }
