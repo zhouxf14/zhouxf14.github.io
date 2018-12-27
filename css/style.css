@@ -16,6 +16,25 @@ body {
     margin-bottom: 20px;
 }
 
+/*#contact .photo-note {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 350px;
+}
+
+#more .photo-note {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 520px;
+}*/
+
+.photo-note {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
 .left-dec {
     border-left: 3px solid #3c8d28;
     padding-left: 10px;
@@ -103,7 +122,7 @@ body {
 }
 
 #more {
-    height: 600px !important;
+    height: 560px !important;
 }
 
 .introduction {
@@ -143,7 +162,7 @@ body {
     margin-right: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 14px;
+    font-size: 12px;
     /*border:1px solid;*/
     /*border-color: rgba(117,117,117,0.6);*/
     cursor: pointer;
