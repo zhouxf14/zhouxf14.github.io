@@ -147,15 +147,17 @@ body {
     /*border:1px solid;*/
     /*border-color: rgba(117,117,117,0.6);*/
     cursor: pointer;
-    border-left: 5px solid rgb(220,220,220);
-    border-right: 5px solid #fff;
+    /*border-left: 5px solid rgb(220,220,220);*/
+    /*border-right: 5px solid #fff;*/
+    border: 2px solid rgb(220,220,220);
     border-radius: 35px;
 }
 
 .tags .active {
     background-color: rgb(140,140,140);
-    border-left: 5px solid rgb(140,140,140);
-    border-right: 5px solid rgb(140,140,140);
+    /*border-left: 5px solid rgb(140,140,140);*/
+    /*border-right: 5px solid rgb(140,140,140);*/
+    border: 2px solid rgb(140,140,140);
     color: #fff;
     border-radius: 35px;
     -moz-border-radius: 35px; /* Old Firefox */
@@ -165,8 +167,9 @@ body {
     border-radius: 35px;
     -moz-border-radius: 35px; /* Old Firefox */
     background-color: rgb(220,220,220);
-    border-left: 5px solid rgb(220,220,220);
-    border-right:5px solid rgb(220,220,220);
+/*    border-left: 5px solid rgb(220,220,220);
+    border-right:5px solid rgb(220,220,220);*/
+    border: 2px solid rgb(220,220,220);
     color: #fff;
 }
 
