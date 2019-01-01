@@ -1,3 +1,53 @@
+
+.main-page {
+    padding-left: 120px;
+}
+
+.side-title img {
+    width: 40%;
+    border-radius: 60px;
+}
+
+.card-image {
+/*    margin-left: 10px;
+    margin-right: 10px;*/
+}
+
+.projects .col {
+    padding-right: 35px;
+}
+
+.card-content {
+    /*border-top: 1px solid rgb(98,98,98);*/
+    /*border-bottom: 1px solid rgb(98,98,98);*/
+}
+
+.card-title {
+	font-weight: 500 !important;
+}
+
+.card-content p {
+    /*font-weight: lighter;*/
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.card {
+    box-shadow: none !important;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    /*padding-top: 10px;*/
+    margin-bottom: 40px !important;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    /*background-color: #e8f5e9;*/
+    /*color: #3c8d28;*/
+    color: #fff;
+}
+
 #gotracker:hover, #bomix:hover {
     background-color: #96CEB4;
 }
@@ -28,6 +78,20 @@
 
 .part-title {
     margin-bottom: 35px !important;
-    margin-top: 30px !important;
-    padding-top: 50px;
+    /*margin-top: 30px !important;*/
+    padding-top: 80px;
+}
+
+.more-link {
+    /*border-bottom: 3px solid rgb(210,210,210);*/
+    background-color: #e8f5e9;
+    border-radius: 28px;
+    padding: 7px 10px;
+}
+
+.hp-part, .footer-copyright {
+	/*background-color: #eceff1;*/
+	/*background-color: #fafafa;*/
+	/*background-color: #efebe9;*/
+	background-color: #f7f7f7;
 }

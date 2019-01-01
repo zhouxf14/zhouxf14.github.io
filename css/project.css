@@ -1,40 +1,69 @@
-.description {
-	padding-top: 40px;
-	padding-bottom: 20px;
-	color: #fff;
+.collapse {
+	cursor: pointer;
+	/*color: #fff;*/
+	color: #3c8d28;
+	position: fixed;
+	left: 0;
+	top: 0;
+	/*margin-left: 50px;*/
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 50px;
+    background-color: transparent;
+    z-index: 1200;
+    overflow-y: auto;
+    will-change: transform;
 }
 
-.description .col {
-	padding-left: 35px;
+.main-page {
+	background-color: #f7f7f7;
+	padding-left: 0px;
 }
-.contents {
-	font-size: 12px;
-	font-weight: lighter;
-	/*width: 70%;*/
-	word-wrap:break-word;
+
+.description {
+	padding-bottom: 10px !important;
+	color: #fff;
+	/*color: rgb(210,210,210);*/
+}
+
+.content-container {
+	padding-left: 65px;
+	padding-right: 65px;
+}
+
+.description .col:first-child {
+	padding-left: 55px;
+}
+
+.description .col:nth-child(3) {
+	padding-left: 35px;
+	padding-right: 55px;
+}
+
+.description .row {
+	/*border-top: 2px solid rgb(210,210,210);*/
+	border-top: 1px solid #fff;
+	padding-top: 20px;
 }
 
 .sm-title {
-	font-size: 15px;
+	font-size: 16px;
 	/*font-family: 'Ubuntu', sans-serif;*/
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-weight: 500;
 }
 
 .sub-title {
-	font-size: 15px;
+	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
+	font-weight: 600;
 	margin-top: 40px;
 	margin-bottom: 20px;
 	color: #3c8d28;
 }
 
 .project-title {
-    font-size: 56px;
     font-family: 'ZCOOL XiaoWei', serif;
-    padding-top: 150px;
-    padding-bottom: 150px;
 }
 
 #gotracker .description, #bomix .description {

@@ -5,6 +5,7 @@
     $('.parallax').parallax();
     $('.slider').slider({
     	indicators: false,
-    	height: 500
+    	height: 490,
+    	interval: 5000
     });
   });

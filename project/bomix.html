@@ -8,34 +8,32 @@
   <link href="../css/project.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu|ZCOOL+XiaoWei" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|ZCOOL+XiaoWei" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,800,900|ZCOOL+XiaoWei" rel="stylesheet">
   <!-- Icon of the website in the browser -->
   <link rel="shortcut icon" href="../images/xiaofei.png"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="../js/materialize.js"></script>
   <script src="../js/init.js"></script> 
-  <script src="../js/index.js"></script>
+  <!-- <script src="../js/index.js"></script> -->
+  <script src="../js/project.js"></script>
 </head>
 
 
 
 <body>
-	<ul id="slide-out" class="section table-of-contents">
-		<!-- <li><div class="user-view"></div></li> -->
-		<!-- <li><a href="index.html"><i class="material-icons" class="center">About Me</i></a></li> -->
-		<a href="../index2.html#about" class="aboutme side-title center">
+	<ul id="slide-out" class="section table-of-contents hidden">
+		<li><a href="../index2.html#about" class="side-title center">
 			<p>Xiaofei</p>
 			<p>Zhou</p>
 			<p>周晓菲</p>
 			<img src="../images/xiaofei.jpg">
-		</a>
-		<li><a href="../index2.html#project" class="side-title center active">Projects</a></li>
+		</a></li>
+		<li><a href="../index2.html#project" class="side-title center active">Project</a></li>
 		<li><a href="../index2.html#contact" class="side-title center">Contact</a></li>
 		<li><a href="../index2.html#more" class="side-title center">MORE</a></li>
-		<div class="cv-btn" class="side-title center">CV</div>
+		<li><div class="cv-btn" class="side-title center">CV</div></li>
 	</ul>
-
+	<i class="material-icons collapse">dehaze</i>
 	<div class="main-page">
 		<div id="bomix">
 			<div class="slider">
@@ -43,31 +41,24 @@
 			      <li>
 			        <img src="../images/project/bomix2.png">
 			        <div class="caption center-align">
-			          <h3>BoMix</h3>
-			          <h5 class="light grey-text text-lighten-3">Interact with music by your body</h5>
-			        </div>
-			      </li>
-<!-- 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/2">
-			        <div class="caption left-align">
-			          <h3>Left Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			          <h1 class="project-title">BoMix</h1>
+			          <h5 class="project-title">Interact with music by your body</h5>
 			        </div>
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/3">
+			        <img src="../images/project/bomix4-2.png">
 			        <div class="caption right-align">
-			          <h3>Right Aligned Caption</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			          <h1 class="project-title">BoMix</h1>
+			          <h5 class="project-title">Make a band by yourself</h5>
 			        </div>
 			      </li>
 			      <li>
-			        <img src="https://lorempixel.com/580/250/nature/4">
-			        <div class="caption center-align">
-			          <h3>This is our big Tagline!</h3>
-			          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+			        <img src="../images/project/bomix3.png">
+			        <div class="caption left-align">
+			          <h1 class="project-title">BoMix</h1>
+			          <h5 class="project-title">Enjoy music and dance</h5>
 			        </div>
-			      </li> -->
+			      </li>
 			    </ul>
 			  </div>
 			<div class="description section">
@@ -89,22 +80,21 @@
 				</div>
 			</div>
 
-			<div class="section white">
-				<div class="container">
-					<div class="sub-title left-dec">Problem Space</div>
-					<p class="contents">For thousands of years, physical instruments have been used to play music. But physical instruments are usually either large in size or inconvenient to be carried with. In addition, it’s particularly difficult for university students to have a regular musical activity because of the limited space of their dorm and because of the noise. Therefore, we propose a new method of playing music, called “BoMix”. In this new input system, the user only need his or her body to make music.</p>
-				</div>
-			</div>
-
-			<div class="section white">
-				<div class="container">
-					<div class="sub-title left-dec">Our Team</div>
-					<p class="contents">We are all students from Tsinghua University, and I am the only undergraduate.</p> 
-					<p class="contents">Jason XU | Zetai WANG | Rong ZHANG | Pierre-Louise SCHNITZLER | Xiaofei ZHOU</p>
-					<div class="row">
-						<img class="col s5" src="../images/project/bomix-team1.jpg">
-						<div class="col s1"></div>
-						<img class="col s5" src="../images/project/bomix-team2.jpg">
+			<div class="section">
+				<div class="content-container">
+					<div class="container">
+						<div class="sub-title left-dec">Problem Space</div>
+						<p class="contents">For thousands of years, physical instruments have been used to play music. But physical instruments are usually either large in size or inconvenient to be carried with. In addition, it’s particularly difficult for university students to have a regular musical activity because of the limited space of their dorm and because of the noise. Therefore, we propose a new method of playing music, called “BoMix”. In this new input system, the user only need his or her body to make music.</p>
+					</div>
+					<div class="container">
+						<div class="sub-title left-dec">Our Team</div>
+						<p class="contents">We are all students from Tsinghua University, and I am the only undergraduate.</p> 
+						<p class="contents">Jason XU | Zetai WANG | Rong ZHANG | Pierre-Louise SCHNITZLER | Xiaofei ZHOU</p>
+						<div class="row">
+							<img class="col s5" src="../images/project/bomix-team1.jpg">
+							<div class="col s1"></div>
+							<img class="col s5" src="../images/project/bomix-team2.jpg">
+						</div>
 					</div>
 				</div>
 			</div>
