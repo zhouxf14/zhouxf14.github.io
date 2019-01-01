@@ -10,6 +10,8 @@
 .contents {
 	font-size: 12px;
 	font-weight: lighter;
+	/*width: 70%;*/
+	word-wrap:break-word;
 }
 
 .sm-title {
@@ -19,16 +21,42 @@
 	font-weight: 900;
 }
 
-#gotracker .parallax-container {
-	height: 450px;
+.sub-title {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	color: #3c8d28;
+}
+
+.parallax-container {
+	height: 420px;
 }
 
 .project-title {
     font-size: 56px;
     font-family: 'ZCOOL XiaoWei', serif;
-    margin-top: 140px;
+    margin-top: 170px;
 }
 
 #gotracker .description {
 	background-color: #96CEB4;
+}
+
+#haii .description {
+    /*background-color: #FFEEAD;*/
+    background-color: #BF6B84;
+}
+
+#el .description {
+    background-color: #FF6F69;
+}
+
+#egia .description {
+    background-color: #FFCC5C;
+}
+
+#pui .description {
+    background-color: #AAD8B0;
 }
