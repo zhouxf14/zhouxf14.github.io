@@ -2,6 +2,11 @@ body {
     /*font-family: 'lgmv';*/
 }
 
+.icon {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
 .text-right {
     text-align: right;
 }
@@ -14,19 +19,8 @@ body {
     color: #3c8d28;
     text-transform: uppercase;
     margin-bottom: 20px;
+    /*font-family: 'Poppins', sans-serif;*/
 }
-
-/*#contact .photo-note {
-    color: #fff;
-    font-size: 12px;
-    margin-top: 350px;
-}
-
-#more .photo-note {
-    color: #fff;
-    font-size: 12px;
-    margin-top: 520px;
-}*/
 
 .photo-note {
     color: #fff;
@@ -46,11 +40,11 @@ body {
 }
 
 .main-page {
-    padding-left: 130px;
+    padding-left: 120px;
 }
 
 #slide-out {
-	width: 130px;
+	width: 120px;
 	margin: 0px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
 	height: calc(100% + 60px);
@@ -67,15 +61,17 @@ body {
     backface-visibility: hidden;
 }
 
-#slide-out a {
+.side-title {
     display: block;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 18px;
+    /*font-weight: 500;*/
     /*height: 48px;*/
     /*line-height: 48px;*/
-    padding: 20px 32px 20px 32px;
+    padding-bottom: 15px;
+    padding-top: 20px;
     color: #757575;
     /*font-weight: lighter;*/
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .cv-btn {
@@ -84,13 +80,13 @@ body {
     font-size: 12px;
     /*border: 1px solid rgb(140, 140, 140);*/
     border: 1px solid #3c8d28;
-    border-radius: 35px;
+    border-radius: 28px;
     margin: 20px 27px 10px 27px;
     padding: 5px 10px;
     cursor: pointer;
     text-align: center;
     font-weight: 500;
-    font-family: lgvc;
+    /*font-family: lgvc;*/
 }
 
 .cv-btn:hover {
@@ -102,13 +98,14 @@ body {
     color: #3c8d28;
 }
 
-.aboutme p {
-    font-family: lgmv;
+.aboutme {
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #3c8d28;
     font-size: 18px;
 }
 
 .aboutme img {
-    width: 70%;
+    width: 40%;
 }
 
 /*.parallax-container {*/
@@ -126,16 +123,13 @@ body {
 }
 
 .introduction {
-    width: 56%;
-    /*color: #000;*/
-    /*color: #3c8d28;*/
-    background-color: rgba(255,255,255,0.6);
-    padding: 30px 70px 40px 70px;
-    margin-left: 10px;
-    margin-top: 20px;
-    /*border:2px solid;*/
-    border-radius: 35px;
-    -moz-border-radius: 35px; /* Old Firefox */
+    width: 45%;
+    /*padding: 40px 60px 40px 60px;*/
+    /*margin-left: 30px;*/
+    margin-top: 40px;
+    /*border-radius: 28px;*/
+    /*-moz-border-radius: 28px; /* Old Firefox */*/
+    /*background-color: rgba(255,255,255,0.4);*/
 }
 
 #about p {
@@ -143,59 +137,44 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: lighter;
     background-color: transparent;
-    text-align: justify;
-    color: #757575;
+    color: #fff;
+    /*text-align: justify;*/
+    /*color: #757575;*/
 }
 
 
 .tags {
-    /*vertical-align: middle;*/
     display: inline;
-    margin-left: 49px;
     overflow: visible;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 28px;
+    float: right;
 }
 
 .tag {
     color: #757575;
     display: inline-block;
     font-weight: lighter;
-    margin-right: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
     font-size: 12px;
-    /*border:1px solid;*/
-    /*border-color: rgba(117,117,117,0.6);*/
+    border-radius: 28px;
     cursor: pointer;
-    /*border-left: 5px solid rgb(220,220,220);*/
-    /*border-right: 5px solid #fff;*/
-    border: 2px solid rgb(220,220,220);
-    border-radius: 35px;
+    padding: 1px 0px;
+    width: 70px;
+    text-align: center;
+    /*line-height: 15px;*/
 }
 
 .tags .active {
     background-color: rgb(140,140,140);
-    /*border-left: 5px solid rgb(140,140,140);*/
-    /*border-right: 5px solid rgb(140,140,140);*/
-    border: 2px solid rgb(140,140,140);
+    border: 1px solid rgb(140,140,140);
     color: #fff;
-    border-radius: 35px;
-    -moz-border-radius: 35px; /* Old Firefox */
+    height: 100%;
 }
 
 .tag:hover {
-    border-radius: 35px;
-    -moz-border-radius: 35px; /* Old Firefox */
     background-color: rgb(220,220,220);
-/*    border-left: 5px solid rgb(220,220,220);
-    border-right:5px solid rgb(220,220,220);*/
-    border: 2px solid rgb(220,220,220);
+    border: 1px solid rgb(220,220,220);
     color: #fff;
-}
-
-.projects .row {
-    /*padding-right: -50px;*/
-/*    padding-left: 75px;
-    width: 80%;*/
 }
 
 .projects .col {
@@ -223,25 +202,27 @@ body {
 .contents {
     padding-top: 20px;
     color: #757575;
-    margin-left: 35px;
+    margin-left: 0;
+    font-weight: lighter;
 }
 
 .contents a {
     color: #757575 !important;
 }
 
-.upper-padding {
-    padding-top: 45px;
-}
-
 .more-link {
     /*border-bottom: 3px solid rgb(220,220,220);*/
     background-color: #e8f5e9;
-    border-radius: 35px;
+    border-radius: 28px;
     padding: 7px 10px;
 }
 
 .more-link:hover {
     background-color: #3c8d28;
     color: #fff !important;
+}
+
+.part-title {
+    margin-bottom: 45px !important;
+    margin-top: 80px !important;
 }
