@@ -1,0 +1,34 @@
+.description {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+.description .col {
+	padding-left: 15px;
+}
+.contents {
+	font-size: 12px;
+	font-weight: lighter;
+}
+
+.sm-title {
+	font-size: 15px;
+	/*font-family: 'Ubuntu', sans-serif;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+#gotracker .parallax-container {
+	height: 450px;
+}
+
+.project-title {
+    font-size: 56px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    margin-top: 140px;
+}
+
+#gotracker .description {
+	background-color: #96CEB4;
+}

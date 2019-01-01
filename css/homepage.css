@@ -1,0 +1,27 @@
+#gotracker:hover {
+    background-color: #96CEB4;
+}
+
+#haii:hover {
+    /*background-color: #FFEEAD;*/
+    background-color: #BF6B84;
+}
+
+#el:hover {
+    background-color: #FF6F69;
+}
+
+#egia:hover {
+    background-color: #FFCC5C;
+}
+
+#pui:hover {
+    background-color: #AAD8B0;
+}
+
+.contents {
+    padding-top: 20px;
+    color: #757575;
+    margin-left: 0;
+    font-weight: lighter;
+}

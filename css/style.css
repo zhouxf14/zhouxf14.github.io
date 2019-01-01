@@ -32,7 +32,9 @@ nav {
     color: #3c8d28;
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .photo-note {
@@ -84,7 +86,8 @@ nav {
     padding-top: 20px;
     color: #757575;
     /*font-weight: lighter;*/
-    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 
 .cv-btn {
@@ -215,8 +218,10 @@ nav {
 .card {
     box-shadow: none !important;
     cursor: pointer;
-    font-family: 'Ubuntu', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
     padding-top: 10px;
+    margin-bottom: 40px !important;
 }
 
 .card:hover {
@@ -227,36 +232,9 @@ nav {
     color: #fff;
 }
 
-#gotracker:hover {
-    background-color: #96CEB4;
-}
-
-#haii:hover {
-    background-color: #FFEEAD;
-}
-
-#el:hover {
-    background-color: #FF6F69;
-}
-
-#egia:hover {
-    background-color: #FFCC5C;
-}
-
-#pui:hover {
-    background-color: #AAD8B0;
-}
-
 .card-image {
     margin-left: 10px;
     margin-right: 10px;
-}
-
-.contents {
-    padding-top: 20px;
-    color: #757575;
-    margin-left: 0;
-    font-weight: lighter;
 }
 
 .contents a {
