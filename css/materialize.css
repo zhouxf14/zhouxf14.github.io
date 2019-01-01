@@ -2780,8 +2780,10 @@ video.responsive-video {
 }
 
 .breadcrumb {
-  font-size: 18px;
-  color: rgba(255, 255, 255, 0.7);
+  /*font-size: 18px;*/
+  /*color: rgba(255, 255, 255, 0.7);*/
+  font-size: 15px;
+  color: #fff;
 }
 
 .breadcrumb i,

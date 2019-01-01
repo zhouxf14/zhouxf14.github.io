@@ -2,6 +2,19 @@ body {
     /*font-family: 'lgmv';*/
 }
 
+a {
+    color: #000;
+    cursor: pointer;
+}
+
+nav {
+    line-height: 40px !important;
+    height: 40px !important;
+    box-shadow: none !important;
+    background-color: rgb(220,220,220) !important;
+    padding-left: 30px;
+}
+
 .icon {
     vertical-align: middle;
     margin-right: 15px;
@@ -19,7 +32,7 @@ body {
     color: #3c8d28;
     text-transform: uppercase;
     margin-bottom: 20px;
-    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .photo-note {
@@ -63,7 +76,7 @@ body {
 
 .side-title {
     display: block;
-    font-size: 18px;
+    font-size: 15px;
     /*font-weight: 500;*/
     /*height: 48px;*/
     /*line-height: 48px;*/
@@ -90,12 +103,14 @@ body {
 }
 
 .cv-btn:hover {
+    background-color: #3c8d28;
+    color: #fff;
     /*background-color: rgb(140, 140, 140);*/
-    background-color: #e8f5e9;
-    border-color: #e8f5e9;
+    /*background-color: #e8f5e9;*/
+    /*border-color: #e8f5e9;*/
     /*color: #fff;*/
     /*color: rgb(140,140,140);*/
-    color: #3c8d28;
+    /*color: #3c8d28;*/
 }
 
 .aboutme {
@@ -106,6 +121,7 @@ body {
 
 .aboutme img {
     width: 40%;
+    border-radius: 60px;
 }
 
 /*.parallax-container {*/
@@ -119,7 +135,7 @@ body {
 }
 
 #more {
-    height: 560px !important;
+    height: 450px !important;
 }
 
 .introduction {
@@ -178,12 +194,12 @@ body {
 }
 
 .projects .col {
-    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .card-content {
     /*border-top: 1px solid rgb(98,98,98);*/
-    border-bottom: 1px solid rgb(98,98,98);
+    /*border-bottom: 1px solid rgb(98,98,98);*/
 }
 
 .card-content p {
@@ -192,11 +208,32 @@ body {
 }
 
 .projects .btn-floating {
-    background-color: #3c8d28;
+    /*background-color: #3c8d28;*/
+    background-color: #e8f5e9;
 }
 
 .card {
     box-shadow: none !important;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+    /*background-color: #e8f5e9;*/
+    /*color: #3c8d28;*/
+    color: #fff;
+}
+
+#gotracker:hover {
+    background-color: #96CEB4;
+}
+
+.card-image {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .contents {
@@ -223,6 +260,7 @@ body {
 }
 
 .part-title {
-    margin-bottom: 45px !important;
-    margin-top: 80px !important;
+    margin-bottom: 35px !important;
+    margin-top: 30px !important;
+    padding-top: 50px;
 }
