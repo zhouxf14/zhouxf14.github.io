@@ -1,18 +1,28 @@
-.collapse {
+.icons {
 	cursor: pointer;
 	/*color: #fff;*/
-	color: #3c8d28;
 	position: fixed;
 	left: 0;
 	top: 0;
 	/*margin-left: 50px;*/
-	padding-left: 30px;
-	padding-top: 30px;
+	padding-left: 0px;
+	padding-top: 20px;
 	padding-bottom: 50px;
     background-color: transparent;
     z-index: 1200;
     overflow-y: auto;
     will-change: transform;
+}
+
+.collapse {
+	padding-left: 30px;
+	color: #3c8d28;
+}
+
+.back {
+	margin-left: 30px;
+	padding-right: 30px;
+	color: #3c8d28;
 }
 
 .main-page {
@@ -22,13 +32,14 @@
 
 .description {
 	padding-bottom: 10px !important;
-	color: #fff;
+	/*color: #fff;*/
+	color: #000;
 	/*color: rgb(210,210,210);*/
 }
 
 .content-container {
-	padding-left: 65px;
-	padding-right: 65px;
+	padding-left: 85px;
+	padding-right: 85px;
 }
 
 .description .col:first-child {
@@ -44,6 +55,7 @@
 	/*border-top: 2px solid rgb(210,210,210);*/
 	border-top: 1px solid #fff;
 	padding-top: 20px;
+	margin-bottom: 0px !important;
 }
 
 .sm-title {
@@ -54,16 +66,20 @@
 }
 
 .sub-title {
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
-	margin-top: 40px;
-	margin-bottom: 20px;
+	font-weight: 500;
+	margin-top: 70px;
+	margin-bottom: 40px;
 	color: #3c8d28;
 }
 
 .project-title {
-    font-family: 'ZCOOL XiaoWei', serif;
+    /*font-family: 'ZCOOL XiaoWei', serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    /*color: #3c8d28;*/
+    text-shadow: 1px 1px 6px rgb(140,140,140);
 }
 
 #gotracker .description, #bomix .description {

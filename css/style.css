@@ -3,7 +3,7 @@ body {
 }
 
 a {
-    color: #000;
+    /*color: #000;*/
     cursor: pointer;
 }
 
@@ -180,7 +180,7 @@ nav {
     border-radius: 28px;
     cursor: pointer;
     padding: 1px 0px;
-    width: 70px;
+    width: 80px;
     text-align: center;
     /*line-height: 15px;*/
 }

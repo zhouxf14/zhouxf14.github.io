@@ -6,13 +6,13 @@ $(document).ready(function(){
 
   $(".collapse").click(function() {
     $("#slide-out").toggleClass("hidden");
-    $(this).toggleClass("hidden");
+    $(".icons").toggleClass("hidden");
   });
 
   $(".main-page").click(function() {
     if(!$("#slide-out").hasClass("hidden")) {
       $("#slide-out").addClass("hidden");
-      $(".collapse").removeClass("hidden");
+      $(".icons").removeClass("hidden");
     }
   });
 

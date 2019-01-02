@@ -1,4 +1,3 @@
-
 .main-page {
     padding-left: 120px;
 }
@@ -15,6 +14,10 @@
 
 .projects .col {
     padding-right: 35px;
+}
+
+.projects a {
+    color: #000;
 }
 
 .card-content {
