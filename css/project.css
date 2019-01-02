@@ -82,21 +82,25 @@
     text-shadow: 1px 1px 6px rgb(140,140,140);
 }
 
-#gotracker .description, #bomix .description {
-	background-color: #96CEB4;
+#gotracker .description {
+    background-color: #96CEB4;
+} 
+
+#bomix .description {
+	background-color: #FF6F69;
 }
 
 #haii .description {
     /*background-color: #FFEEAD;*/
-    background-color: #BF6B84;
+    background-color: #FFCC5C;
 }
 
 #el .description {
-    background-color: #FF6F69;
+    background-color: #96CEB4;
 }
 
 #egia .description {
-    background-color: #FFCC5C;
+    background-color: #BF6B84;
 }
 
 #pui .description {

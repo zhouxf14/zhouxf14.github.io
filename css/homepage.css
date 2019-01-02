@@ -51,21 +51,25 @@
     color: #fff;
 }
 
-#gotracker:hover, #bomix:hover {
+#gotracker:hover {
     background-color: #96CEB4;
+}
+
+#bomix:hover {
+    background-color: #FF6F69;
 }
 
 #haii:hover {
     /*background-color: #FFEEAD;*/
-    background-color: #BF6B84;
+    background-color: #FFCC5C;
 }
 
 #el:hover {
-    background-color: #FF6F69;
+    background-color: #96CEB4;
 }
 
 #egia:hover {
-    background-color: #FFCC5C;
+    background-color: #BF6B84;
 }
 
 #pui:hover {
