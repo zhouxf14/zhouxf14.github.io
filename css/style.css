@@ -22,7 +22,7 @@ nav {
 #slide-out {
     width: 120px;
     margin: 0px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);*/
     height: calc(100% + 60px);
     position: fixed;
     left: 0;
@@ -35,6 +35,8 @@ nav {
     overflow-y: auto;
     will-change: transform;
     backface-visibility: hidden;
+    /*background-color: #f7f7f7;*/
+    background-color: rgba(247, 247, 247, 1);
 }
 
 .contents {
@@ -205,4 +207,46 @@ nav {
 .more-link:hover {
     background-color: #3c8d28;
     color: #fff !important;
+}
+
+.green-background {
+    background-color: #96CEB4;
+} 
+
+.red-background {
+    background-color: #FF6F69;
+}
+
+.yellow-background {
+    /*background-color: #FFEEAD;*/
+    background-color: #FFCC5C;
+}
+
+.purple-background {
+    background-color: #BF6B84;
+}
+
+.light-green-background {
+    background-color: #AAD8B0;
+}
+
+.green-hover:hover {
+    background-color: #96CEB4;
+} 
+
+.red-hover:hover {
+    background-color: #FF6F69;
+}
+
+.yellow-hover:hover {
+    /*background-color: #FFEEAD;*/
+    background-color: #FFCC5C;
+}
+
+.purple-hover:hover {
+    background-color: #BF6B84;
+}
+
+.light-green-hover:hover {
+    background-color: #AAD8B0;
 }
