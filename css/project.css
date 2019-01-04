@@ -61,12 +61,16 @@
 }
 
 .description .col:first-child {
-	padding-left: 55px;
+	/*padding-left: 15px;*/
 }
 
 .description .col:nth-child(3) {
-	padding-left: 35px;
-	padding-right: 55px;
+	/*padding-left: 35px;*/
+	/*padding-right: 15px;*/
+}
+
+.description .col {
+	padding-left: 15px;
 }
 
 .description .row {
