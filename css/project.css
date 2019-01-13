@@ -1,3 +1,7 @@
+.row {
+	margin-bottom: 0 !important;
+}
+
 .icons {
 	cursor: pointer;
 	/*color: #fff;*/
@@ -12,6 +16,7 @@
     z-index: 1200;
     overflow-y: auto;
     will-change: transform;
+    text-shadow: 1px 1px 6px rgb(140,140,140);
 }
 
 .card-title {
@@ -48,16 +53,21 @@
 }
 
 .description {
-	padding-bottom: 10px !important;
+	padding-bottom: 0px !important;
 	/*color: #fff;*/
-	/*color: #000;*/
-	color: #f7f7f7;
+	color: #000;
+	/*color: #f7f7f7;*/
 	/*color: rgb(210,210,210);*/
 }
 
 .content-container {
 	padding-left: 85px;
 	padding-right: 85px;
+}
+
+.notes {
+	font-size: 10px;
+	color: #757575;
 }
 
 .description .col:first-child {
@@ -73,12 +83,18 @@
 	padding-left: 15px;
 }
 
+.thinner {
+	padding-right: 15px;
+}
+
 .description .row {
 	/*border-top: 2px solid rgb(210,210,210);*/
 	/*border-top: 1px solid #fff;*/
-	border-top: 1px solid #f7f7f7;
-	padding-top: 20px;
+	/*border-top: 1px solid #f7f7f7;*/
+	padding-top: 40px;
+	padding-bottom: 20px;
 	margin-bottom: 0px !important;
+	border-bottom: 1px solid #757575;
 }
 
 .sm-title {
@@ -88,13 +104,21 @@
 	font-weight: 500;
 }
 
-.sub-title {
+.title {
 	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	margin-top: 70px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	color: #3c8d28;
+}
+
+.subtitle {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .project-title {
@@ -103,4 +127,36 @@
     font-weight: 500;
     /*color: #3c8d28;*/
     text-shadow: 1px 1px 6px rgb(140,140,140);
+}
+
+.left-part {
+	border-right: 1px dashed #757575;
+	padding-right: 20px;
+	text-align: justify;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.right-part {
+	padding-left: 20px;
+	text-align: justify;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.down-part {
+	border-top: 1px dashed #757575;
+	padding-top: 20px;
+}
+
+.top-part {
+	border-bottom: 1px dashed #757575;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.key {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	font-weight: 700;
+	/*font-size: 14px;*/
 }

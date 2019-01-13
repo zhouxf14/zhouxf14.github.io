@@ -2,6 +2,19 @@
     padding-left: 120px;
 }
 
+.title {
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    font-size: 20px;
+    /*color: #626262;*/
+    color: #3c8d28;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
 .side-title img {
     width: 40%;
     border-radius: 60px;
@@ -27,6 +40,10 @@
 
 .card-title {
 	font-weight: 500 !important;
+}
+
+.card-tags {
+    font-size: 10px;
 }
 
 .card-content p {

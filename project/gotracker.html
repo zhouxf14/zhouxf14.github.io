@@ -8,7 +8,7 @@
   <link href="../css/project.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,800,900|ZCOOL+XiaoWei" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,800,900|Saira+Semi+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
   <!-- Icon of the website in the browser -->
   <link rel="shortcut icon" href="../images/xiaofei2.png"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -42,7 +42,7 @@
 			<div class="slider">
 		    	<ul class="slides">
 			      <li class="green-background">
-			        <img src="../images/project/test.png">
+			        <img src="../images/project/gotracker.png">
 			        <div class="caption center-align">
 			          <h1 class="project-title">GoTracker</h1>
 			          <h5 class="project-title">Make Project-Based Learning Stronger</h5>
@@ -57,12 +57,13 @@
 			      </li> -->
 			    </ul>
 			  </div>
-			<div class="description section green-background">
+			<div class="description section">
 				<div class="container">
 					<div class="row">
 						<div class="col l1 m1 s12">
 							<span class="sm-title">Date</span>
 							<p class="contents">Fall 2018</p>
+							<p class="contents">3 months</p>
 						</div>
 						<div class="col l2 m2 s12">
 							<span class="sm-title">Client</span>
@@ -70,11 +71,13 @@
 						</div>
 						<div class="col l5 m5 s12">
 							<span class="sm-title">My Role</span>
-							<p class="contents">I am the user/learner researcher and UI designer for this project. I co-lead the context inquiry and qualitative data analysis. I also take charge of UI design for our final product.</p>
+							<p class="contents thinner">I am the user/learner researcher and UI designer of this project. I co-lead the contextual inquiry and qualitative data analysis. I also take charge of UI design for our final product.</p>
 						</div>
 						<div class="col l4 m4 s12">
-							<span class="sm-title">Skills</span>
-							<p class="contents">Winchester Thurston School, Pittsburgh</p>
+							<span class="sm-title ">Skills</span>
+							<p class="contents">Contextual Inquiry: Interview, Observation, Think Aloud</p>
+							<p class="contents">Qualitative Data Analysis: Affinity Diagram</p>
+							<p class="contents">UX Design: Wareframe Design, Visual Design</p>
 						</div>
 					</div>
 				</div>
@@ -83,23 +86,26 @@
 			<div class="section">
 				<div class="content-container">
 					<div class="container">
-						<div class="sub-title">Skills</div>
-						<p class="contents">For thousands of years, physical instruments have been used to play music. But physical instruments are usually either large in size or inconvenient to be carried with. In addition, it’s particularly difficult for university students to have a regular musical activity because of the limited space of their dorm and because of the noise. Therefore, we propose a new method of playing music, called “BoMix”. In this new input system, the user only need his or her body to make music.</p>
-					</div>
-					<div class="container">
-						<div class="sub-title">01 Problem Space</div>
-						<p class="contents">For thousands of years, physical instruments have been used to play music. But physical instruments are usually either large in size or inconvenient to be carried with. In addition, it’s particularly difficult for university students to have a regular musical activity because of the limited space of their dorm and because of the noise. Therefore, we propose a new method of playing music, called “BoMix”. In this new input system, the user only need his or her body to make music.</p>
-					</div>
-					<div class="container">
-						<div class="sub-title">02 Solution</div>
+						<div class="title">Introduction</div>
 						<div class="row">
-							<div class="col s6 contents"></div>
-							<div class="col s1"></div>
-							<img class="col s5" src="../images/project/bomix5.png">							
+							<div class="contents col s8 left-part">As our education system moves to a more personalized style of education in the 21st century, the importance and effectiveness of <span class="key">project-based learning</span> has been recognized by more and more people. However, as the popularity of PBL grows, there are still some problems to be solved. After a 3-round user research, we identified our <a href="#problem">problem space</a> with several essential experience models. With storyboards, Speed Dating with our target client and learner experience map, our ideation and design process become very solid.</div>
+							<div class="notes col s4 right-part"><span class="key">Project-based learning (PBL)</span> is a student-centered pedagogy that involves a dynamic classroom approach aimed at helping students acquire a deeper knowledge through active exploration of real-world challenges. The direct output of a PBL course is usually a project with the goal of solving some problems. In many courses, these projects are done collaboratively in groups, though sometimes it is also an option for students to work independently.</div>
 						</div>
 					</div>
 					<div class="container">
-						<div class="sub-title">03 User Research</div>
+						<div id="problem" class="title">01 Problem Space</div>
+						<p class="contents">In project-based learning, students generally come in to the course with some idea of what they hope to learn, their “learning goals.” The teacher might have some specific learning goals that they’d like all students to work toward as well, such as “collaboration skills” in a group-based project. However, often times each group will be working toward different learning goals that relate to their own project, for example in the CS Innovations course we observed one student wanted to learn about machine learning, while another was learning how to program for VR. Sometimes students get bogged down in small tasks or problems or become distracted and lose sight of their course learning goals in PBL courses. It also sometimes difficult for teachers to assess whether students are meeting their learning goals in order to provide useful feedbacks and, at the end of the course, fair grades.</p>
+					</div>
+					<div class="container">
+						<div class="title">02 Solution</div>
+						<div class="row">
+							<div class="contents">We aim to address the problem of losing track of one’s learning goals with our GoTracker system. This system enables students to set their learning goals at the beginning of the course and to track their progress toward these goals over the duration of the project by setting weekly tasks and capturing daily progress. It will also allow teachers to see students’ progress towards these goals, approving or disapproving their goal - evidence alignment, which will be later used to generate the progress bar. The proposed system will be described in more detail in later chapters.</div>	
+							<div class="subtitle">Key Features</div>	
+							<div class="contents">We aim to address the problem of losing track of one’s learning goals with our GoTracker system. This system enables students to set their learning goals at the beginning of the course and to track their progress toward these goals over the duration of the project by setting weekly tasks and capturing daily progress. It will also allow teachers to see students’ progress towards these goals, approving or disapproving their goal - evidence alignment, which will be later used to generate the progress bar. The proposed system will be described in more detail in later chapters.</div>							
+						</div>
+					</div>
+					<div class="container">
+						<div class="title">03 Design Process</div>
 						<div class="row">
 							<img class="col s6" src="../images/project/bomix5.png">
 							<div class="col s1"></div>
@@ -107,9 +113,17 @@
 						</div>
 					</div>
 					<div class="container">
-						<div class="sub-title">04 Our Team</div>
-						<p class="contents">We are all students from Tsinghua University, and I am the only undergraduate.</p> 
-						<p class="contents">Jason XU | Zetai WANG | Rong ZHANG | Pierre-Louise SCHNITZLER | Xiaofei ZHOU</p>
+						<div class="title">04 Research & Synthesis</div>
+						<div class="row">
+							<img class="col s6" src="../images/project/bomix5.png">
+							<div class="col s1"></div>
+							<div class="col s5 contents"></div>
+						</div>
+					</div>
+					<div class="container">
+						<div class="title">05 Our Team</div>
+						<p class="contents">We are all graduate students from CMU.</p> 
+						<p class="contents">Xiaofei ZHOU | Wei GONG | Qianhui SUN | Sarah SCHULTZ</p>
 						<div class="row">
 							<img class="col s5" src="../images/project/bomix-team1.jpg">
 							<div class="col s1"></div>

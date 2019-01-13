@@ -57,19 +57,6 @@ nav {
     text-align: right;
 }
 
-.title {
-    /*padding-top: 10px;*/
-    /*padding-bottom: 10px;*/
-    font-size: 20px;
-    /*color: #626262;*/
-    color: #3c8d28;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    /*font-family: 'Ubuntu', sans-serif;*/
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
 .photo-note {
     color: #fff;
     font-size: 14px;
@@ -102,7 +89,8 @@ nav {
 }
 
 .side-title p {
-    font-family: 'ZCOOL XiaoWei', serif;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 400;
     color: #3c8d28;
     font-size: 20px;
 }
@@ -157,7 +145,7 @@ nav {
 }
 
 #about p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
     background-color: transparent;
@@ -211,6 +199,7 @@ nav {
 
 .green-background {
     background-color: #96CEB4;
+    /*background-color: #48ad7e;*/
 } 
 
 .red-background {
@@ -232,6 +221,7 @@ nav {
 
 .green-hover:hover {
     background-color: #96CEB4;
+    /*background-color: #48ad7e;*/
 } 
 
 .red-hover:hover {
