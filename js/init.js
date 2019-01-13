@@ -9,4 +9,9 @@
         height: 450,
     	interval: 5000
     });
+
+    $(document).ready(function(){
+        $('.materialboxed').materialbox();
+    });
+    
   });

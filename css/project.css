@@ -68,6 +68,7 @@
 .notes {
 	font-size: 10px;
 	color: #757575;
+	margin-top: 20px;
 }
 
 .description .col:first-child {
@@ -116,9 +117,20 @@
 .subtitle {
 	font-size: 16px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	border-left: 10px solid #757575;
+	/*padding-bottom: 20px;*/
+}
+
+.subsubtitle {
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	/*font-size: 14px;*/
+	padding-top: 30px;
+	padding-bottom: 0px;
 }
 
 .project-title {
@@ -130,26 +142,48 @@
 }
 
 .left-part {
-	border-right: 1px dashed #757575;
 	padding-right: 20px;
 	text-align: justify;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	/*padding-bottom: 20px;*/
+	/*margin-top: 20px;*/
 }
 
 .right-part {
 	padding-left: 20px;
 	text-align: justify;
-	padding-bottom: 20px;
-	padding-top: 20px;
 }
 
 .down-part {
-	border-top: 1px dashed #757575;
 	padding-top: 20px;
 }
 
 .top-part {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.left-part-dec {
+	border-right: 1px dashed #757575;
+	padding-right: 20px;
+	text-align: justify;
+	/*padding-bottom: 20px;*/
+	/*margin-top: 20px;*/
+}
+
+.right-part-dec {
+	border-left: 1px dashed #757575;
+	padding-left: 20px;
+	text-align: justify;
+	/*padding-bottom: 20px;*/
+	/*margin-top: 20px;*/
+}
+
+.down-part-dec {
+	border-top: 1px dashed #757575;
+	padding-top: 20px;
+}
+
+.top-part-dec {
 	border-bottom: 1px dashed #757575;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -159,4 +193,28 @@
 	font-family: 'Saira Semi Condensed', sans-serif;
 	font-weight: 700;
 	/*font-size: 14px;*/
+}
+
+.contents {
+	margin-top: 30px;
+	/*padding-bottom: 20px;*/
+}
+
+.project-image {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/*padding-left: 20px;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*height: 450px;*/
+}
+
+.feature-image {
+	height: 300px;
+}
+
+.project-image img {
+	max-height: 100%;
+	max-width: 100%;
+	padding-bottom: 20px;
 }

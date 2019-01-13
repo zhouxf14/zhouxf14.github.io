@@ -197,6 +197,10 @@ nav {
     color: #fff !important;
 }
 
+.basic-background {
+    background-color: rgba(247, 247, 247, 1);
+} 
+
 .green-background {
     background-color: #96CEB4;
     /*background-color: #48ad7e;*/

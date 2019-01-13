@@ -44,10 +44,12 @@
 
 .card-tags {
     font-size: 10px;
+    font-weight: 500;
 }
 
 .card-content p {
     /*font-weight: lighter;*/
+    margin-top: 10px !important;
     font-weight: 200;
     font-size: 14px;
 }
