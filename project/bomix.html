@@ -83,73 +83,88 @@
 					<div class="container">
 						<div class="title">Introduction</div>
 						<div class="row">
-							<div class="contents col s12 left-part-dec">Bomix is a new way for users to play music, not with instruments, but with their body. In this new input system, the core idea is that you can control the height of a note by the position of your hand and the rythm of music by your hands' shaking frequency. What' more, you can try different instruments with your legs! Sounds exciting!</div>
-							<div class="contents col s4 right-part">In the course of user research, </div>
+							<div class="contents col s7 left-part-dec">Bomix is a new way for users to play music, not with instruments, but with their body. In this new input system, the core idea is that you can control the height of a note by the position of your hand and the rythm of music by your hands' shaking frequency. What' more, you can try different instruments with your legs! Sounds exciting!</div>
+							<div class="contents col s5 right-part">In the course of interaction design, we conducted user research with 4 participants, in order to make sure that the interaction of BoMix is intuitive and natural enough for users to perform.</div>
 						</div>
 					</div>
 					<div class="container">
 						<div id="problem" class="title">01 Problem Space</div>
-						<div class="contents">In project-based learning, students generally come in to the course with some idea of what they hope to learn, their “learning goals.” The teacher might have some specific learning goals that they’d like all students to work toward as well, such as “collaboration skills” in a group-based project. However, often times each group will be working toward different learning goals that relate to their own project, for example in the CS Innovations course we observed one student wanted to learn about machine learning, while another was learning how to program for VR. Sometimes students get bogged down in small tasks or problems or become distracted and lose sight of their course learning goals in PBL courses. It also sometimes difficult for teachers to assess whether students are meeting their learning goals in order to provide useful feedbacks and, at the end of the course, fair grades.</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents left-part-dec">
-								<span class="key">Learning goals setting and tracking</span>
-							</div>
-							<div class="col s12 m12 l10 x10 contents right-part">It is not always easy for students to identify their learning goals and keep them in mind while working on group projects.</div>
-						</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents left-part-dec">
-								<span class="key">Collaboration</span>
-							</div>
-							<div class="col s12 m12 l10 x10 contents right-part">Unbalanced share of work among team members.</div>
-						</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents left-part-dec">
-								<span class="key">Assessment</span>
-							</div>
-							<div class="col s12 m12 l10 x10 contents right-part">Teachers find it difficult to assess various groups that are working on different projects.</div>
-						</div>
+						<div class="contents">For thousands of years, physical instruments have been used to play music. But physical instruments are usually either large in size or inconvenient to be carried with. In addition, it’s particularly difficult for university students to have a regular musical activity because of the limited space of their dorm and because of the noise. Therefore, we propose a new method of playing music, called “BoMix”. In this new input system, the user only need his or her body to make music.</div>
 					</div>
+
 					<div class="container">
 						<div class="title">02 Solution</div>
 						<div class="row">
-							<div class="contents">We aim to address the problem of losing track of one’s learning goals with our GoTracker system. This system enables students to set their learning goals at the beginning of the course and to track their progress toward these goals over the duration of the project by setting weekly tasks and capturing daily progress. It will also allow teachers to see students’ progress towards these goals, approving or disapproving their goal - evidence alignment, which will be later used to generate the progress bar. The proposed system will be described in more detail in later chapters.</div>	
-							<div class="contents">With our system, students will be better able to keep track of their learning goal progress, which we believe will lead to increased effort on task completion, decreased frustration in facing failures, and a sense of fairness in viewing assessment. It could increase time on task (as opposed to spent on off-task behavior) because if a student becomes unsure of what to do next, they can look back at their learning goals to help them determine a next step that will allow them to make progress toward one or more of those goals. It will hopefully decrease frustration as it will help students focus on the bigger picture rather than be disappointed by small failures. A sense of fairness in assessment will come out of the students’ ability to see how much progress they made toward their learning goals over the semester, as well as teacher feedback on task completion week-to-week, which will help make the final grading more transparent.</div>
-							<div class="video-container" style="margin-top: 20px;">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/h8y2xLG1nn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				            </div>	
-
+							<div class="subtitle">Basic Idea</div>
+							<div class="row">
+								<div class="col s12 m8 l8 xl8 project-image left-part">
+									<img src="../images/project/bomix-basic.png">
+								</div>
+								<div class="col s12 m14 l4 xl4 right-part-dec contents">
+									<div>When users move their arms in different areas in the air, BoMix will play different piano notes.</div>
+									<p>When users move their legs in the air, BoMix will play drum notes based on users' rhythm.</p>
+									<p>The mapping rules between different body parts and different types of instruments, different midair areas and different music notes can be customized basaed on users' personal preferences and needs.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12 m8 l8 xl8 project-image left-part">
+									<img src="../images/project/bomix-basic1.png">
+								</div>
+								<div class="col s12 m14 l4 xl4 right-part-dec contents">
+									<div>Our device is using the Kinect sensor and is based on the metaphore of a musical range.</div>
+								</div>
+							</div>
 							<div class="subtitle">Key Features</div>
 							<div class="row">
-								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Whole-package PBL</span></div>
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Real-time Feedback</span></div>
 								<div class="col s12 m12 l10 x10 contents right-part-dec">
-									<span>Our system assists students along the project making process, including project proposal, students' self-defined learning goals, setting weekly tasks, making daily progress, making achievement on learning goals, self-reflection and final grading.</span>
+									<span>• Real-time visual feedback for different postures and text feedback for different notes.</span>
+									<p class="key">Video Demo (Original UI)</p>
+									<div class="center">
+						                <video class="responsive-video" controls>
+						                  <source src="../videos/bomix1.mp4" type="video/mp4">
+						                </video>
+						            </div>
 								</div>
 							</div>
-							<div class="carousel carousel-slider center project-image">
-							    <a class="carousel-item" href="#one!"><img src="../images/project/gotracker-0.jpg"></a>
-							    <a class="carousel-item" href="#two!"><img src="../images/project/gotracker-1.jpg"></a>
-							    <a class="carousel-item" href="#three!"><img src="../images/project/gotracker-2.jpg"></a>
-							    <a class="carousel-item" href="#four!"><img src="../images/project/gotracker-3.jpg"></a>
-							    <a class="carousel-item" href="#five!"><img src="../images/project/gotracker-4.jpg"></a>
-							    <a class="carousel-item" href="#four!"><img src="../images/project/gotracker-5.jpg"></a>
-							    <a class="carousel-item" href="#five!"><img src="../images/project/gotracker-6.jpg"></a>
-							</div>
+
 							<div class="row">
-								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Plan Your Project</span></div>
-								<div class="col s12 m12 l10 xl10 contents right-part-dec">
-									<span>Students need to make weekly plan for their project. And they will add daily progress during the week based on weekly tasks of the current week. They can also review weekly tasks completion of previous weeks.</span>
-									<div class="project-image">
-										<img class="materialboxed feature-image" data-caption="Set Weekly Tasks" src="../images/project/gotracker-8.jpg">
-									</div>
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Interface Improvements</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>• Enlarge display font size.</span>
+									<p>• Divide different horizontal gesture areas and different colors for different notes.</p>
+									<p class="key">Video Demo (Improved UI)</p>
+									<div class="center">
+						                <video class="responsive-video" controls>
+						                  <source src="../videos/bomix2.mp4" type="video/mp4">
+						                </video>
+						            </div>
 								</div>
 							</div>
+
 							<div class="row">
-								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Focus on Learning</span></div>
-								<div class="col s12 m12 l10 xl10 contents right-part-dec">
-									<span>Each piece of daily progress is aligned with specific learning goals, which help students put more emphasis on the achievement of learning goals they really care about. In this case, failures along project making would not beat their passion and interest easily because our system bring back the nature of project-based learning.</span>
-									<div class="project-image">
-										<img class="materialboxed feature-image" data-caption="Add Daily Progress" src="../images/project/gotracker-7.jpg">
-									</div>
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">More Instruments Control</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>• Add a new form of interaction: Use legs to control other more instruments.</span>
+									<p class="key">Video Demo (Improved UI)</p>
+									<div class="center">
+						                <video class="responsive-video" controls>
+						                  <source src="../videos/bomix4.mp4" type="video/mp4">
+						                </video>
+						            </div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Band of One Person</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>• Finally you can enjoy playing as a band only by yourself!</span>
+									<p class="key">Video Demo (Improved UI)</p>
+									<div class="center">
+						                <video class="responsive-video" controls>
+						                  <source src="../videos/bomix3.mp4" type="video/mp4">
+						                </video>
+						            </div>
 								</div>
 							</div>
 						</div>
@@ -157,270 +172,105 @@
 					<div class="container">
 						<div class="title">03 Design Process</div>
 						<div class="project-image center">
-							<img src="../images/project/gotracker-whole.png">
+							<!-- <img src="../images/project/gotracker-whole.png"> -->
 						</div>
 					</div>
 					<div class="container">
 						<div class="title">04 Research & Synthesis</div>
 
-						<div class="subtitle">Understanding Stakeholders’ Perspectives and Needs</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Interviews with Stakeholders</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec">
-								<span>For this round of interviews, we generated different questions based on different stakeholders’ perspectives, including a specific PBL course Research Science, the PBL courses in City as Our Campus, school’s overall opinion on project-based learning and pros and cons of PBL courses. For each interview, one person acted as the interviewer, taking the lead on asking questions, one person took notes, and a third recorded the audio and took photographs.</span>
-							</div>
-						</div>
+						<div class="subtitle">User Scenarios</div>
+
 						<div class="contents">
 							<div class="project-image center">
-									<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/gotracker-context1.png">
+									<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/bomix-scenario1.png" width="80%">
 							</div>
-						</div>
-
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Diagnostic Map</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec">
-								<div>Next, we created a diagnostic map (Jesper Simonsen and Karin Friberg, 2014) to detect existing problems in project-based learning courses at Winchester Thurston. Problems, their potential causes and consequences were identified as reported by the stakeholders through our affinity diagram and user profile boards. Then we generated ideas for how these problems could be solved (including both ideas of potential pieces to include in our design and other possible solutions that might not be things we could actually implement).</div>
-								<div>The problems were broken down into four categories - <span class="key">assessment, project-making, collaboration, and others</span>. We first created a map together using sticky notes on a whiteboard and then converted it to a digital version for readability.</div>
-							</div>
-						</div>
-						<div class="contents row">
-							<div class="col s12 m12 l4 xl4">
-								<p class="key">Diagnostic map with assessment problems</p>
-								<div class="project-image center">	
-									<img class="materialboxed" data-caption="Diagnostic map with assessment problems" src="../images/project/gotracker-diag1.jpg" width="90%">
-								</div>
-							</div>
-							<div class="col s12 m12 l4 xl4">
-								<p class="key">Diagnostic map with project making problems</p>
-								<div class="project-image center">
-									<img class="materialboxed" data-caption="Diagnostic map with project making problems" src="../images/project/gotracker-diag2.jpg" width="90%">
-								</div>
-							</div>
-							<div class="col s12 m12 l4 xl4">
-								<p class="key">Diagnostic map with collaboration and other problems</p>
-								<div class="project-image center">
-									<img class="materialboxed" data-caption="Diagnostic map with collaboration and other problems" src="../images/project/gotracker-diag3.jpg" width="90%">
-								</div>
-							</div>
-						</div>
-
-						<div class="subtitle">Understanding Learners in Context</div>
-						<div class="contents">After discussing the goals and challenges of project-based learning at Winchester Thurston with the stakeholders above, we wanted to validate our findings from the students' perspective, so we did a combined classroom observation and survey study to gather this data.</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Data Consolidation</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec">
-								<span>We then created an affinity diagram to further synthesize the qualitative data from the survey with the observations from the classroom.</span>
-								<div class="project-image">
-									<img class="materialboxed" data-caption="Affinity diagramming for learners in context" src="../images/project/gotracker-learner1.jpg">
-								</div>
-								<p>Based on our affinity diagram, we found that students tended to fall into two overarching types, “collaborators” and “individualists.” We created identity models, a type of model which shows “the aspects of users’ personal identity that matter to [the] design” (Holtzblatt & Beyer 2016a), for each of these personality types.</p>
-								<p>In the open-response question about what value students got from PBL courses, responses also included “learning to slowly work on a long term project,” “time management and how to pace long term projects,” and “ the responsibility of completing a big project with less deadlines and hand holding from your instructor.” This take-away of time management skills was one we had not thought to ask about originally and it was interesting to see that students reported that they felt it was a valuable benefit of PBL.</p>
-							</div>
-						</div>
-
-						<div class="subtitle">Synthesis of Research Findings</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Synthesis of the Data</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec left-part">
-								<span>After conducting and analyzing three user studies, we found that a student’s success and ability to participate in project-based learning depends on many people- not only the student and instructor, but also community mentors, parents, and peers, as well as those who might be evaluating their transcripts for college admissions.</span>
-								<p>We decided to analyze the influence of these roles from the view of the student, since project-based learning is student-centered. We categorized other roles according to their level of intimacy with the students in the context of project-based learning. Therefore, we decided to create a relationship model (Holtzblatt & Beyer, 2016b).</p>
-							</div>
-						</div>
-						<div class="contents row">
-							<div class="col s12 m12 l7 xl9">
-								<p class="key">Detailed Relationship Model</p>
-								<div class="project-image center">
-									<img class="materialboxed" data-caption="Detailed Relationship Model" src="../images/project/gotracker-relation2.png">
-								</div>
-							</div>
-							<div class="col s12 m12 l5 xl3">
-								<span class="key">Relationship Model Structure</span>
-								<div class="project-image">
-									<img class="materialboxed" data-caption="Relationship Model Structure" src="../images/project/gotracker-relation1.jpg" width="100%">
-								</div>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Problem Space</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec left-part">
-								<span>Based on the pain points found in the relationship model, we began to narrow down the problem space. Since the lower level in the relationship model is a bit further removed from the students in the context, we decided to focus on the upper and middle levels. The problems between the students and other roles in the two levels, identified in user studies 2 and 3.</span>
-								<p class="key">Vision Model Based on Problem Space</p>
-								<div class="project-image center">
-									<img class="materialboxed" data-caption="Vision Model Based on Problem Space" src="../images/project/gotracker-vision.png">
-								</div>
-							</div>
-						</div>
-
-						<div class="subtitle">Ideation</div>
-						<div class="row">
-							<div class="col s12 m5 l5 xl5 project-image left-part">
-								<img src="../images/project/gotracker-ideation1.png">
-							</div>
-							<div class="col s12 m17 l7 xl7 right-part-dec contents">
-								<span class="key">STEP 1 | Initial Storyboards</span>
-								<p class="contents">Each of us on the team brainstormed 5 ideas for the solutions to our problem space and made 3-panel experience storyboards for them.</p>
-								<span class="key">STEP 2 | Speed Dating</span>
-								<p class="contents">Through group discussion, 10 storyboards out of 20 in total were selected for the purpose of a <a href="https://www.sciencedirect.com/science/article/pii/S2405872616300661">speed dating (Zimmerman & Forlizzi, 2017)</a> with our client. After the speed dating, a comprehensive design solution was made, which is the combination of three of our original storyboards.</p>
-								<span class="key">STEP 3 | Final Decision</span>
-								<p class="contents">However, the integrated storyboard including three ideas became too complicated and the system was overwhelming and confusing. So we decided to keep two ideas to focus on in our final design solution, the following prototyping and development stages.</p>
-							</div>
-						</div>
-						<div class="contents">
-							<span class="key">Final Storyboards Selected</span>
 							<div class="project-image center">
-								<img class="materialboxed" data-caption="Final Storyboards Selected" src="../images/project/gotracker-ideation2.png">
+									<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/bomix-scenario2.png" width="80%">
 							</div>
 						</div>
 
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Learner Experience Map</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec">
-								<span>Based on insights from speed dating, we hope to design a system that can help students have a clearer understanding of their learning goals. Using this system, students can design their own learning goals with scaffolding from the instructor, and track how much progress they’ve made toward them so far, and where they can improve. They can receive timely and targeted feedback from their teacher, at both the group and individual level. Teachers will also be better able to track their students’ progress toward their learning goals and more easily assess their final outcomes.</span>
-								<p>Additionally, this system will help the teacher with final grading, as the teacher can use the system’s progress bars, in tandem with students’ final self-reflections, to assist in assigning grades at the end of the course. We believe that this system can reduce frustration in both students and teachers of PBL courses.</p>
-							</div>
-						</div>
+						<div class="subtitle">Design Iteration</div>
 						<div class="contents">
-							<div class="project-image center">
-									<img class="materialboxed" data-caption="Learner Experience Map" src="../images/project/gotracker-ideation3.png">
-							</div>
-						</div>
-
-						<div class="subtitle">Design & Prototype</div>
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Static Prototype</span></div>
-						</div>
-
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">User Test 1 for Role</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec left-part">
-								<span>With the static prototypes and questions we want to answer, we did the first round of user test with the high school students from the PBL course Computer Science Innovation in Winchester Thurston School, as well as a new round of class observation, stakeholder interview and speed dating.</span>
-								<div class="project-image">
-									<img class="materialboxed" data-caption="Stakeholder Interview and Class Observation" src="../images/project/gotracker-user1.png">
-								</div>
-								<p class="contents">
-									<span>The primary objective of this prototype is to test the role (Hounde & Hill, 1997) of our design solution in a PBL course.</span>
-									<div class="project-image">
-										<img class="materialboxed" data-caption="Stakeholder Interview and Class Observation" src="../images/project/gotracker-user1.png">
+							<div class="row">
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">First Stage</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>There is only a visual display of the user's body on the first iteration of BoMix interface.</span>
+									<div class="project-image center">
+											<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/bomix-iter1.png" width="100%">
 									</div>
-									<p class="key">Role (Primary)</p>
-									<ul>
-										<li>Does the work flow of the system (esp. self-set learning goals) match with the students’ work flow in the course?</li>
-										<li>What values do students think the system can bring them?</li>
-										<li>How fair/trustworthy do the students feel the system is for the assessment?</li>
-										<li>How much burden do students feel when using the system?</li>
-									</ul>
-									<p class="key">Look & Feel (Secondary)</p>
-									<ul>
-										<li>Is the interaction of the system intuitive for students?</li>
-									</ul>
-								</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Second Stage</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>Visual indicators were added to the second iteration of BoMix interface, to make the music notes generated by the current gesture. This can help users create more professionally, which adds more practical value to BoMix.</span>
+									<div class="project-image center">
+											<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/bomix-iter2.png" width="100%">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Third Stage</span></div>
+								<div class="col s12 m12 l10 x10 contents right-part-dec">
+									<span>Reference lines were added to facilitate users make a desired gesture more efficiently and more accurately. Such design makes the interface more visible and easier to interact with.</span>
+									<div class="project-image center">
+											<img class="materialboxed" data-caption="Understand Stakeholders' Perspectives and Needs" src="../images/project/bomix-iter3.png" width="100%">
+									</div>
+								</div>
 							</div>
 						</div>
-
-						<div class="row contents">
-							<div class="col s12 m12 l2 xl2"><span class="subsubtitle">User Test 1 - Findings</span></div>
-							<div class="col s12 m12 l10 xl10 right-part-dec left-part">
-								<div class="key">Value - Match with the course although it’s individual project</div>
-								<ul>
-									<li>“Everyone does a different project and has different learning goals for this course”</li>
-									<li>“We set our own goals and discuss them with the teacher ”</li>
-
-								</ul>
-								<p class="key">Value - Keep track of what students have learned</p>
-								<ul>
-									<li>“Most helpful to look backward at what I learned, I want to look back on this.”</li>
-								</ul>
-								<p class="key">Burden - Not much burden</p>
-								<ul>
-									<li>“I don’t think it’s a lot burden to me. I think uploading the work I did and keeping record of them is very helpful. I want to put more details on what I did every day.”</li>
-								</ul>
-								<p class="key">Fairness</p>
-								<ul>
-									<li>Students trust the way the teacher is currently grading them using the agile framework.</li>
-								</ul>
-								<p class="key">Interaction</p>
-								<ul>
-									<li>Overall Intuitive</li>
-									<li>Room for improvement in some features</li>
-									<ul style="margin-left: 20px;">
-										<li>“What does ‘task’ mean in in the daily log interface? Can you specify that?”</li>
-										<li>“I can only upload the work if I am one of the collaborators? What if my teammate asks me to upload for him when he’s away and I’m not one of the collaborators?”</li>
-									</ul>
-								</ul>
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">Interactive Prototype & Parallel Design</span></div>
-						</div>
-
-						<div class="row">
-							<div class="col s12 m12 l2 xl2 contents"><span class="subsubtitle">User Test 1 for Look & Feel</span></div>
-							<div class="col s12 m12 l10 xl10 contents right-part-dec left-part">
-								<span>With the dynamic prototype, we did the second round of user test with 2 of the students in the CS Innovation course.  We asked them to think aloud while interacting with the prototype and completing some tasks including upload the design proposal, set the learning goals, check teacher’s feedbacks, set weekly tasks, upload daily progress, check the progress for each learning goal, and so on. We also did an A/B testing with the two designs for setting weekly tasks and entering the daily logs interface.</span>
-								<p class="contents">
-									<p class="key">Look & Feel </p>
-									<ul>
-										<li>Is the interface intuitive and user friendly?</li>
-										<li>Are there any parts that are confusing or redundant?</li>
-										<li>Parallel designs: do you have a preference?</li>
-										<li>Could this replace the current agile system they are using in the class?</li>
-									</ul>
-								</p>
-							</div>
-						</div>
-
-						<div class="row contents">
-							<div class="col s12 m12 l2 xl2"><span class="subsubtitle">User Test 2 - Findings</span></div>
-							<div class="col s12 m12 l10 xl10 right-part-dec left-part">
-								<div class="key">Overall interaction - Intuitive</div>
-								<ul>
-									<li>In most cases, users can complete the tasks we listed smoothly.</li>
-									<li>“It’s pretty intuitive”</li>
-								</ul>
-								<p class="key">Confusions - Some features</p>
-								<ul>
-									<li>Sidebar and header</li>
-									<li>What is the sequence of the features on home page</li>
-									<li>How the progress bar is generated</li>
-									<li>What is the definition of daily log</li>
-								</ul>
-								<p class="key">Parallel design - Version B is preferable</p>
-								<ul>
-									<li>“It makes more sense to add logs based on weekly tasks.”</li>
-									<li>The icons need to be more intuitive.</li>
-								</ul>
-								<p class="key">Improve current confusing interfaces</p>
-								<ul>
-									<li>Refine the navigation in sidebar and header</li>
-									<li>Add arrow to show sequence for each step on the homepage</li>
-									<li>Change  the term “Daily Log” to “Daily Progress”</li>
-									<li>More obvious “Add daily Progress” button in the daily progress page</li>
-									<li>Add “completion proportion”  when uploading daily progress</li>
-									<li>Add “Explanation” for the progress bar</li>
-								</ul>
-								<p class="key">Iterate Version B</p>
-								<ul>
-									<li>Users can set weekly tasks and subtasks</li>
-									<li>Add entrance of daily log in the weekly task page</li>
-									<li>Refine the icons in version B</li>
-								</ul>
-							</div>
-						</div>
-
 					</div>
 					
 					<div class="container">
 						<div class="title">05 Our Team</div>
-						<p class="contents">We are all graduate students from CMU.</p> 
-						<p class="contents">Xiaofei ZHOU | Wei GONG | Qianhui SUN | Sarah SCHULTZ</p>
+						<p class="contents">We are all students from Tsinghua University, and I am the only undergraduate.</p> 
+						<p class="contents">Jason XU | Zetai WANG | Rong ZHANG | Pierre-Louise SCHNITZLER | Xiaofei ZHOU</p>
 						<div class="row">
-							<img class="col s5" src="../images/project/gotracker-team1.jpg">
+							<img class="col s5" src="../images/project/bomix-team1.jpg">
 							<div class="col s1"></div>
-							<img class="col s5" src="../images/project/gotracker-team2.jpg">
+							<img class="col s5" src="../images/project/bomix-team2.jpg">
 						</div>
 					</div>
+
+					<div class="container more-projects">
+						<div class="center title">SEE MORE</div>
+						<div class="row">
+							<div class="col l4">
+								<a href="../project/haii.html">
+									<div class="card yellow-hover">
+								        <div class="card-image">
+								          <img src="../images/project/haii.png">
+								          <p class="card-title">Facen to Yourself</p>
+								          <p class="card-tags">#User Research</p>
+								        </div>
+								    </div>
+								</a>
+							</div>
+<!-- 							<div class="col l4">
+								<a href="../project/bomix.html">
+									<div class="card red-hover">
+								        <div class="card-image">
+								          <img src="../images/project/bomix.png">
+								          <p class="card-title">BoMix</p>
+								          <p class="card-tags">#User Research</p>
+								        </div>
+								    </div>
+								</a>
+							</div> -->
+							<div class="col l4">
+								<div class="card green-hover">
+							        <a href="../project/gotracker.html">
+							        	<div class="card-image">
+								          <img src="../images/project/gotracker.png">
+								          <p class="card-title">GoTracker</p>
+								          <p class="card-tags">#Learner Research #Product Design</p>
+								        </div>
+								    </a>
+							    </div>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>

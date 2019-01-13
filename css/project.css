@@ -218,3 +218,17 @@
 	max-width: 100%;
 	padding-bottom: 20px;
 }
+
+.responsive-video {
+	margin-bottom: 20px;
+}
+
+.video-container {
+	margin-top: 20px;
+}
+
+.card-tags {
+	padding-left: 24px;
+	padding-bottom: 20px;
+	color: #757575;
+}

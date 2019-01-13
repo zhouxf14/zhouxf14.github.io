@@ -20,22 +20,12 @@
     border-radius: 60px;
 }
 
-.card-image {
-/*    margin-left: 10px;
-    margin-right: 10px;*/
-}
-
 .projects .col {
     padding-right: 35px;
 }
 
 .projects a {
     color: #000;
-}
-
-.card-content {
-    /*border-top: 1px solid rgb(98,98,98);*/
-    /*border-bottom: 1px solid rgb(98,98,98);*/
 }
 
 .card-title {
