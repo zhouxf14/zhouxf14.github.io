@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $(".cv-btn").click(function() {
-    location.href = "Xiaofei_Zhou_CV.pdf";
+    location.href = "../Xiaofei_Zhou_CV.pdf";
   });
 
   $(".collapse").click(function() {
