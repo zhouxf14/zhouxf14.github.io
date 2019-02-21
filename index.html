@@ -4,17 +4,191 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>Xiaofei Zhou</title>
-  <link href="css/construction.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/homepage.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,800,900|Saira+Semi+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <!-- Icon of the website in the browser -->
+  <link rel="shortcut icon" href="images/xiaofei2.png"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script> 
+  <script src="js/index.js"></script>
 </head>
 
+
+
 <body>
-  <br>
-  <br>
-  <h1 class="title">Hi! This is Xiaofei Zhou's online world.</h1> 
-  <h1 class="title">I am really sorry that Xiaofei's new online world is under construction.</h1>
-  <br>
-  <h2 class="title">To view my old portfolio, <a href="Old/index.html">click here</a></h2>
-  <h2 class="title">To view my current portfolio which is still under construction, <a href="index2.html">click here</a></h2>
-  <a href="index2.html"><img src="images/construction.jpg"></a>
+	<ul id="slide-out" class="section table-of-contents">
+		<!-- <li><div class="user-view"></div></li> -->
+		<!-- <li><a href="index.html"><i class="material-icons" class="center">About Me</i></a></li> -->
+		<li><a href="#about" class="side-title center">
+			<p>Xiaofei</p>
+			<p>Zhou</p>
+			<p>周晓菲</p>
+			<!-- <img src="images/xiaofei.png"> -->
+			<img src="images/xiaofei.jpg">
+		</a></li>
+		<li><a href="#project" class="side-title center">Projects</a></li>
+		<li><a href="#contact" class="side-title center">Contact</a></li>
+		<li><a href="#more" class="side-title center">MORE</a></li>
+		<div class="cv-btn" class="side-title center">CV</div>
+	</ul>
+
+	<div class="main-page">
+		<div id="about" class="parallax-container scrollspy">
+			<div class="section no-pad-bot">
+				<div class="container">
+					<div class="left introduction">
+						<!-- <div class="text-right title right-dec">About Me</div> -->
+						<!-- <div class="text-right title">Xiaofei Zhou</div> -->
+						<p>My research interest and design passion lie in creating innovative, interactive systems to help people develop complex and softer forms of human intelligence, and ultimately realize their own life values.</p>
+						<p>My undergraduate major in Human Factors gave me a good understanding of how people interact with systems. Currently, the METALS (Master of Educational Technology and Applied Learning Science) program at CMU is offering me a window into the intersection of learning and technology.</p>
+					</div>
+				</div>
+			</div>
+	      <div class="parallax"><img src="images/para-0.jpg"></div>
+	    </div>
+
+	    <div id="project" class="section scrollspy hp-part">
+	    	<div class="part-title row container">
+	    		<!-- <span class="title left-dec">My Work</span> -->
+	    		<span class="title left-dec">Projects</span>
+	    		<div class="tags hidden">
+	    			<div class="tag">Research</div>
+	    			<div class="tag">Design</div>
+	    			<div class="tag">Ed Tech</div>
+	    			<div class="tag">Coding</div>
+	    			<div id="all" class="tag">All</div>
+	    		</div>
+	    	</div>
+
+	    	<div class="projects">
+	    		<div class="row container">
+	    			<div class="col xl6 l6 m12 s12"><a href="project/gotracker.html">
+	    				<div id="gotracker" class="card green-hover">
+	    					<div class="card-image">
+	    						<img src="images/project/gotracker.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title">GoTracker</span>
+	    						<span class="card-tags">#Learner Research #Product Design</span>
+	    						<p>A goal-tracker helping student focus on their learning goals through project making and get the most from project-based learning.</p>
+	    						<!-- <span class="card-tags">| #Learner Research #Product Design</span> -->
+	    					</div>
+	    				</div>
+	    			</a></div>
+
+	    			<div class="col xl6 l6 m12 s12"><a href="project/bomix.html">
+	    				<div id="bomix" class="card red-hover">
+	    					<div class="card-image">
+	    						<img src="images/project/bomix.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title">BoMix</span>
+	    						<span class="card-tags">#User Research</span>
+	    						<p>A new way to create a piece of music which can interact with your body. Users can experience their own melody and dance to it!</p>
+	    					</div>
+	    				</div>
+	    			</a></div>
+
+	    		</div>
+
+	    		<div class="row container">
+	    			<div class="col xl6 l6 m12 s12"><a href="project/esoda.html">
+		      			<div id="esoda" class="card yellow-hover">
+		      				<div class="card-image">
+		      					<img src="images/project/esoda/logo.png">
+		      					<!-- <a class="btn-floating halfway-fab waves-effect waves-light"><i class="material-icons">play_arrow</i></a> -->
+		      				</div>
+		      				<div class="card-content">
+		      					<span class="card-title">ESODA</span>
+		      					<span class="card-tags">#Ed Tech #UX Design #Front-End Programming</span>
+		      					<p>ESODA is an academic writing assistant for Non-native English speaker, with which you can query the authentic English collocation and example sentences.</p>
+		      				</div>
+		      			</div>
+		      		</a></div>
+		      		<div class="col xl6 l6 m12 s12"><a href="project/index.html">
+		      			<div id="el" class="card light-green-hover">
+		      				<div class="card-image">
+		      					<img src="images/project/infovis.png">
+		      				</div>
+		      				<div class="card-content">
+		      					<span class="card-title">Info Vis Online Learning Design</span>
+		      					<span class="card-tags">#Ed Tech #Instructional Design</span>
+		      					<p>A 30-minute online course helping novices get an efficient and effective start on information visualization and visualize information like an expert.</p>
+		      				</div>
+		      			</div>
+		      		</a></div>
+		      	</div>
+
+		      	<div class="row container">
+		      		<div class="col xl6 l6 m12 s12 hidden">
+		      			<div id="egia" class="card purple-hover">
+		      				<div class="card-image"><img src="images/project/gotracker.jpg"></div>
+		      				<div class="card-content">
+		      					<span class="card-title">EGIA<span class="card-tags">#Learner Research #Product Design</span></span>
+		      					<p>This is the project from the course Learning Media Design.</p>
+		      				</div>
+		      			</div>
+		      		</div>
+
+		      		<div class="col xl6 l6 m12 s12 hidden">
+		      			<div id="pui" class="card light-green-hover">
+		      				<div class="card-image"><img src="images/project/gotracker.jpg"></div>
+		      				<div class="card-content">
+		      					<span class="card-title">PUI<span class="card-tags"> | Learner Research, Product Design</span></span>
+		      					<p>This is the project from the course Learning Media Design.</p>
+		      				</div>
+		      			</div>
+		      		</div>
+		      	</div>
+		      </div>
+		  </div>
+
+	    <div id="contact" class="parallax-container scrollspy">
+	    	<div class="section no-pad-bot">
+				<div class="container">
+					<div class="photo-note right">Squirrel Hill in Pittsburgh, photographed by Xiaofei, 2017</div>
+				</div>
+			</div>
+			<div class="parallax"><img src="images/para-1.jpg"></div>
+		</div>
+
+		<div class="section hp-part">
+			<div class="container part-title">
+				<span class="title left-dec">Contact Me</span>
+				<p class="contents"><a href="mailto:xiaofei2@andrew.cmu.edu"><i class="material-icons icon">email</i></a>xiaofei2@andrew.cmu.edu</p>
+				<p class="contents"><a href="https://medium.com/@zhouxf626"><i class="material-icons icon">beach_access</i>My Medium Blog</a>
+			</div>
+		</div>
+
+	    <div id="more" class="parallax-container scrollspy">
+	    	<div class="section no-pad-bot">
+				<div class="container">
+					<div class="photo-note right">Niagara Falls, photographed by Xiaofei, 2017</div>
+				</div>
+			</div>
+			<div class="parallax"><img src="images/para-2.jpg"></div>
+	    </div>
+
+	    <div class="section more hp-part">
+	    	<div class="part-title container">
+	    		<span class="title left-dec">More About Me</span>
+	    		<p class="contents">Besides design, research and educational technology, I really enjoy <a class="more-link" href="#sketching.html">sketching</a>, <a class="more-link" href="#photography.html">photography</a> and <a class="more-link" href="#novel.html">writing novels</a> as well.</p>
+	    	</div>
+	    </div>
+
+	    <footer>
+	    	<div class="footer-copyright">
+	    		<div class="container">
+	    			<font face="thin">© Xiaofei Zhou 2018</font>
+	    		</div>
+	    	</div>
+	    </footer>
+
+    </div>
 </body>
+
 </html>
