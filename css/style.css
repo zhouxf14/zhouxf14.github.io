@@ -7,6 +7,11 @@ a {
     cursor: pointer;
 }
 
+.notes {
+    font-size: 12px;
+    color: #757575;
+}
+
 nav {
     line-height: 40px !important;
     height: 40px !important;
