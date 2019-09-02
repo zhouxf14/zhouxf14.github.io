@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	$(".cv-btn").click(function() {
-		location.href = "Xiaofei_Zhou_UX.pdf";
+		location.href = "Xiaofei_Zhou.pdf";
 	});
 
 });

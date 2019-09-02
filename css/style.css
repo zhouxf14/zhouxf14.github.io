@@ -5,6 +5,7 @@ body {
 a {
     /*color: #000;*/
     cursor: pointer;
+    /*background-color: transparent !important;*/
 }
 
 .notes {
@@ -89,7 +90,7 @@ nav {
 }
 
 .side-title img {
-    width: 40%;
+    width: 50%;
     border-radius: 60px;
 }
 
@@ -128,7 +129,7 @@ nav {
 /*.parallax-container {*/
 #about {
     /*height: 420px !important;*/
-    height: 390px !important;
+    /*height: 390px !important;*/
 }
 
 #contact {
@@ -149,14 +150,15 @@ nav {
     /*background-color: rgba(255,255,255,0.4);*/
 }
 
-#about p {
+#about .intro {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
+    padding-top: 30px;
     background-color: transparent;
-    color: #fff;
+    /*color: #fff;*/
+    color: #757575;
 }
-
 
 .tags {
     display: inline;

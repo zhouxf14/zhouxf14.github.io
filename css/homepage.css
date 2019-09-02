@@ -15,11 +15,6 @@
     font-weight: 500;
 }
 
-.side-title img {
-    width: 40%;
-    border-radius: 60px;
-}
-
 .projects .col {
     padding-right: 35px;
 }
@@ -70,7 +65,7 @@
 .part-title {
     margin-bottom: 35px !important;
     /*margin-top: 30px !important;*/
-    padding-top: 80px;
+    padding-top: 63px;
 }
 
 .more-link {
