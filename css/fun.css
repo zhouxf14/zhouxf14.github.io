@@ -1,0 +1,40 @@
+ul.table-of-contents a {
+    color: rgba(0,0,0,0.55);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+ul.table-of-contents a.active {
+    color: rgba(0,0,0,0.8);
+}
+
+.table-of-contents a.active {
+    font-weight: 500;
+    padding-left: 14px;
+    border-left: 2px solid #ee6e73;
+}
+
+.main-page {
+	padding-left: 70px;
+	padding-top: 70px;
+}
+
+.fixed-side {
+	position: fixed;
+	bottom: 40px;
+}
+
+.word-title {
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.word-card {
+	padding-bottom: 40px;
+}
+
+.topic-title .material-icons {
+	margin-left: 10px;
+	color: #ee6e73;
+	font-size: 35px;
+}
