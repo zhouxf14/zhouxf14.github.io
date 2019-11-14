@@ -38,3 +38,7 @@ ul.table-of-contents a.active {
 	color: #ee6e73;
 	font-size: 35px;
 }
+
+.without-meaning {
+	z-index: -100;
+}

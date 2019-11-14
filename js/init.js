@@ -2,6 +2,7 @@
     $('.scrollspy').scrollSpy({
     	scrollOffset: 0
     });
+    $('.carousel').carousel();
     $('.parallax').parallax();
     $('.slider').slider({
     	indicators: false,
