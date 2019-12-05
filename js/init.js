@@ -2,6 +2,7 @@
     $('.scrollspy').scrollSpy({
     	scrollOffset: 0
     });
+    $('.tooltipped').tooltip();
     $('.carousel').carousel();
     $('.parallax').parallax();
     $('.slider').slider({

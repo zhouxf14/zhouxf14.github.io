@@ -59,7 +59,8 @@ ul.table-of-contents a.active {
 
 .sentence-structure .empty-row {
 	height: 40px;
-
+	cursor: pointer;
+	font-size: 14px !important;
 }
 
 .word-bank {
