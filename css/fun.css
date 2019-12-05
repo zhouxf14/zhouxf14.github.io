@@ -19,6 +19,14 @@ ul.table-of-contents a.active {
 	padding-top: 70px;
 }
 
+.row {
+	margin-bottom: 0px !important;
+}
+
+.main-page .section {
+	margin-bottom: 250px;
+}
+
 .fixed-side {
 	position: fixed;
 	bottom: 40px;
@@ -41,4 +49,45 @@ ul.table-of-contents a.active {
 
 .without-meaning {
 	z-index: -100;
+}
+
+.sentence-structure {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 28px;
+}
+
+.sentence-structure .empty-row {
+	height: 40px;
+
+}
+
+.word-bank {
+	height:240px;
+	border:1px solid #ccc;
+	overflow: auto;
+}
+
+#topic3 .word-card {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#topic3 .word-card .word-item {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-left: 21px;
+	margin-right: 14px;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: center;
+	background-color: #fff;
+}
+
+#topic3 {
+	text-align: center;
+	/*display: table-cell;*/
 }

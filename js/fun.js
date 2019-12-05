@@ -8,4 +8,14 @@ $(document).ready(function(){
 			$(this).text("Test");
 		}
 	});
+
+	$(".word-bank .word-item").click(function() {
+		// alert("Test");
+		var id = $(this).parent(".word-bank").attr('id');
+		var word = $(this).text();
+		word = word.substring(0, word.indexOf('('));
+		var category = id.substring(0, id.length-1);
+		$("#"+category).text(word);
+
+	})
 });
