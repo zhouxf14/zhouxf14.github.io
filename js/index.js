@@ -14,4 +14,8 @@ $(document).ready(function(){
 		location.href = "Xiaofei_Zhou.pdf";
 	});
 
+  $(".google-scholar-btn").click(function() {
+    location.href = "https://scholar.google.com/citations?hl=en&user=OIL9gqgAAAAJ";
+  });
+
 });

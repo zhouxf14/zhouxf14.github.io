@@ -23,12 +23,16 @@
     color: #000;
 }
 
+.research_papers a {
+    color: #000;
+}
+
 .card-title {
 	font-weight: 500 !important;
 }
 
 .card-tags {
-    font-size: 14px;
+    font-size: 10px !important;
     font-weight: 500;
 }
 
@@ -60,6 +64,10 @@
     color: #757575;
     margin-left: 0;
     font-weight: lighter;
+}
+
+.paper a {
+    color: rgb(85, 26, 139) !important;
 }
 
 .part-title {

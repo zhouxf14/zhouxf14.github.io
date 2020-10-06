@@ -101,13 +101,13 @@ nav {
     font-size: 20px;
 }
 
-.cv-btn {
+.side-btn {
     /*color: rgb(140, 140, 140);*/
     color: #3c8d28;
     font-size: 14px;
     /*border: 1px solid rgb(140, 140, 140);*/
-    border: 1px solid #3c8d28;
-    border-radius: 28px;
+    /*border: 1px solid #3c8d28;*/
+    border-radius: 7px;
     margin: 20px 27px 10px 27px;
     padding: 5px 10px;
     cursor: pointer;
@@ -115,7 +115,7 @@ nav {
     font-weight: 500;
 }
 
-.cv-btn:hover {
+.side-btn:hover {
     background-color: #3c8d28;
     color: #fff;
     /*background-color: rgb(140, 140, 140);*/
