@@ -48,7 +48,7 @@
     cursor: pointer;
     font-family: 'Montserrat', sans-serif;
     /*padding-top: 10px;*/
-    margin-bottom: 40px !important;
+    /*margin-bottom: 40px !important;*/
 }
 
 .card:hover {
@@ -59,9 +59,19 @@
     color: #fff;
 }
 
+.line {
+    margin-bottom: 70px;
+    /*color: #000;*/
+    border-top: 1px solid transparent;
+}
+
+.contents-color {
+    color: #757575;    
+}
+
 .contents {
     padding-top: 20px;
-    color: #757575;
+
     margin-left: 0;
     font-weight: lighter;
 }
