@@ -11,7 +11,7 @@ $(document).ready(function(){
 	});
 
 	$(".cv-btn").click(function() {
-		window.open("Xiaofei_Zhou.pdf");
+		window.open("https://docs.google.com/document/d/1JoEGiCnP4vcB4v4GTIIZAp1g6YRYNkR8Yxdu0kDRYwQ/edit?usp=sharing");
 	});
 
   $(".google-scholar-btn").click(function() {
