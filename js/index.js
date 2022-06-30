@@ -18,7 +18,7 @@ $(document).ready(function(){
     window.open("https://scholar.google.com/citations?hl=en&user=OIL9gqgAAAAJ");
   });
   $(".post-btn").click(function() {
-    window.open("https://chivalrous-ceder-326.notion.site/e09e6db52d96418ba26e0037b61dd34c");
+    window.open("https://xiaofei7.notion.site/e09e6db52d96418ba26e0037b61dd34c");
   });
 
 });
